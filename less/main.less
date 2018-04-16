@@ -33,6 +33,11 @@
         }
     }
 }
+
+.shadow{
+    text-shadow: 2px 2px 4px #000000;
+}
+
 p.white{
     color: @gris;
 }
@@ -129,5 +134,68 @@ div.contenedor-center{
     .flex{
         padding-top: 60px;
         padding-bottom: 60px;
+    }
+}
+
+/* ==========================================================================
+   PORQUÉ ELEGIRNOS
+   ========================================================================== */
+
+#porque-elegirnos{
+    background: url(../img/porque/fondo-borrosos.jpg) center no-repeat;
+    background-size: cover;
+    
+    div.contenedor-center{
+        padding-top: 140px;
+        padding-bottom: 100px;
+    }
+}
+
+#centro-autorizado{
+   background: url(../img/porque/fondo-sandia-dosPiramides.jpg) center no-repeat;
+   background-size: cover; 
+    
+    div.flex{
+        padding-top: 110px;
+        padding-bottom: 40px;
+        .col{
+            padding: 0px 80px;
+            h2{
+                padding-top: 30%;
+                text-align: left;
+                    
+            }
+        }
+    }
+    
+    #melon{     
+         background: url(../img/porque/circulo-melon.png) center top no-repeat;
+        h2{
+            padding-top: 85px;
+            text-align: center;
+        }
+        p{
+            padding-top: 50%;
+        }
+    }
+}
+
+#ventajas{
+    background-color: @gris-oscuro;
+    
+    .flex{
+        padding: 200px 100px 80px 100px;
+        
+        .col{
+            width: 33.3%;
+            text-align: center;
+            h2{
+                padding-top: 100px;
+                
+            }
+            p{
+                padding-top: 10px;
+            }
+        }
     }
 }

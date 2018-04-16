@@ -20,6 +20,9 @@
 .flex .col.align-self-end {
   align-self: flex-end;
 }
+.shadow {
+  text-shadow: 2px 2px 4px #000000;
+}
 p.white {
   color: #f3f3f2;
 }
@@ -90,4 +93,56 @@ div.contenedor-center {
 #contacto .flex {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+/* ==========================================================================
+   PORQUÉ ELEGIRNOS
+   ========================================================================== */
+#porque-elegirnos {
+  background: url(../img/porque/fondo-borrosos.jpg) center no-repeat;
+  background-size: cover;
+}
+#porque-elegirnos div.contenedor-center {
+  padding-top: 140px;
+  padding-bottom: 100px;
+}
+#centro-autorizado {
+  background: url(../img/porque/fondo-sandia-dosPiramides.jpg) center no-repeat;
+  background-size: cover;
+}
+#centro-autorizado div.flex {
+  padding-top: 110px;
+  padding-bottom: 40px;
+}
+#centro-autorizado div.flex .col {
+  padding: 0px 80px;
+}
+#centro-autorizado div.flex .col h2 {
+  padding-top: 30%;
+  text-align: left;
+}
+#centro-autorizado #melon {
+  background: url(../img/porque/circulo-melon.png) center top no-repeat;
+}
+#centro-autorizado #melon h2 {
+  padding-top: 85px;
+  text-align: center;
+}
+#centro-autorizado #melon p {
+  padding-top: 50%;
+}
+#ventajas {
+  background-color: #ebebeb;
+}
+#ventajas .flex {
+  padding: 200px 100px 80px 100px;
+}
+#ventajas .flex .col {
+  width: 33.3%;
+  text-align: center;
+}
+#ventajas .flex .col h2 {
+  padding-top: 100px;
+}
+#ventajas .flex .col p {
+  padding-top: 10px;
 }
