@@ -8,3 +8,126 @@
 @yellow-dead: #e3b45b;
 @yellow-dead-background: #e5ba68;
 @naranja-fondo: #cf7639;
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+    &.center-h {
+        justify-content: center;
+    }
+
+    &.nowrap {
+        flex-wrap: nowrap;
+    }
+
+    .col {
+        width: 50%;    
+        padding: 0px 20px;
+        box-sizing: border-box;
+        &.align-self-center {
+            align-self: center;
+        }
+        &.align-self-end {
+            align-self: flex-end;
+        }
+    }
+}
+p.white{
+    color: @gris;
+}
+
+.btn-yellow{
+    background-color: @yellow;
+    color: @sandia;
+    
+}
+
+.btn-sandia{
+    background-color: @sandia;
+    color: @gris;
+    
+}
+
+div.contenedor-center{
+    margin: auto;
+    width: 45%;
+    padding: 10px; 
+    text-align: center;
+}
+
+/* ==========================================================================
+   HOME
+   ========================================================================== */
+
+#reparamos{
+    //background: url(../img/home/fondo-columna-section1.jpg) no-repeat left;    
+    //background-color: @gris-oscuro;
+    .col{
+        padding-top: 160px;
+    }
+    #reparamos1{
+        background: linear-gradient(to bottom, #f4e181, #d27943);
+        //background-size: cover;
+    }
+    #reparamos2{
+        background-color: @gris-oscuro;
+        img#all-devices{
+            position:relative;
+            left: -44px;
+              
+        }
+    }
+
+}
+
+
+#who{
+    background: url(../img/home/modern-devices.png) center top no-repeat, url(../img/home/fondo-sandia-piramide.jpg) no-repeat center;
+    
+    h2{
+        padding-top: 465px;
+    }
+    div.contenedor-center{
+        padding-bottom: 50px;     
+    }
+}
+
+#nuestros-servicios{
+        }
+    
+#brindamos
+{
+    .contenedor-center{
+        padding-top: 85px;
+    }
+    .flex {
+        margin-top: 70px;
+        .col {
+        width: 25%;            
+        }
+    }
+    img#bro{
+        position:relative;
+        left: 0;
+        top:-85px;  
+    }
+}
+
+#beneficios{
+    background-color: @gris-oscuro;
+    .flex{
+        padding-top: 125px;
+        padding-bottom: 60px;
+    }
+}
+
+#contacto{
+    background: url(../img/home/fondo-contacto.jpg) center no-repeat;
+    background-size: cover;
+    
+    .flex{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}

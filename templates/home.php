@@ -4,9 +4,9 @@
 ?>
 
 <section id="reparamos">
-     <img src="../img/home/fondo-columna-section1.jpg" alt="fondo-izquierda">
-        <div class="flex">
-            <div class="col">
+
+        <div  class="flex">
+            <div id ="reparamos1" class="col">
                 <h1><span class="light-big-white">Reparamos tus</span>
                 <span class="bigest-white">computadoras,</span>
                 <span class="big-white">impresoras, teléfonos móviles</span>
@@ -17,8 +17,8 @@
                 
                 <button class="btn-yellow">MÁS INFORMACIÓN</button>
             </div>
-            <div class="col">
-                <img src="../img/home/computadoras.png" alt="computadoras, telefonos, impresoras">
+            <div id ="reparamos2" class="col">
+                <img id="all-devices" src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/computadoras.png" alt="computadoras, telefonos, impresoras" width="100%" height="100%">
             </div>
         </div>
 
@@ -26,7 +26,7 @@
 
 <section id="who">
     <div class="contenedor-center">
-        <img src="../img/home/modern-devices.png" alt="tablets y laptops">
+        
         <h2 class="bigest-white shadow">¿Quiénes Somos?</h2>
         <p>Somos una empresa dedicada a la venta y reparación de computadoras, teléfonos, sistemas de voz y datos, equipos de video y máquinas de coser. </p>
         <p>Nos mantenemos actualizados en los avances tecnológicos de nuestro rubro, para brindarte exactamente lo que necesitas de la mano de nuestros profesionales certificados.</p>
@@ -49,11 +49,11 @@
         </p>
         
     </div>
-    <div class="flex-4">
-        <div class="col"><img src="../img/home/dell.png" alt="DELL"></div>
-        <div class="col"><img src="../img/home/epson.png" alt="EPSON"></div>
-        <div class="col"><img src="../img/home/brother.png" alt="brother at your side"></div>
-        <div class="col"><img src="../img/home/samsung.png" alt="SAMSUNG"></div>
+    <div class="flex">
+        <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/dell.png" alt="DELL"></div>
+        <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/epson.png" alt="EPSON"></div>
+        <div class="col"><img id="bro" src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/brother.svg" alt="brother at your side" width="100%" height="100%"></div>
+        <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/samsung.png" alt="SAMSUNG"></div>
     </div>
 </section>
 
@@ -94,8 +94,4 @@
         </div>
     </div>
 </section>
-<?php 
-    get_footer();
-?>
 
-<?php echo get_stylesheet_directory_uri(); ?>
