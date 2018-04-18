@@ -7,10 +7,10 @@
 
         <div  class="flex">
             <div id ="reparamos1" class="col">
-                <h1><span class="light-big-white">Reparamos tus</span>
-                <span class="bigest-white">computadoras,</span>
-                <span class="big-white">impresoras, teléfonos móviles</span>
-                y equipos de video.</h1>
+                <h1><span class="light-big-white">Reparamos tus</span><br>
+                <span class="bigest-white">computadoras,</span><br>
+                <span class="big-white">impresoras, teléfonos móviles</span><br>
+                <span class="light-big-white">y equipos de video.</span></h1>
                            
                 <p class="white">Reparamos tus equipos, en garantía o por cargos 
                 somos agente autorizado de las mejores marcas.</p>
@@ -27,9 +27,9 @@
 <section id="who">
     <div class="contenedor-center">
         
-        <h2 class="bigest-white shadow">¿Quiénes Somos?</h2>
-        <p>Somos una empresa dedicada a la venta y reparación de computadoras, teléfonos, sistemas de voz y datos, equipos de video y máquinas de coser. </p>
-        <p>Nos mantenemos actualizados en los avances tecnológicos de nuestro rubro, para brindarte exactamente lo que necesitas de la mano de nuestros profesionales certificados.</p>
+        <h2 class="giant-white shadow">¿Quiénes Somos?</h2>
+        <p class="white">Somos una empresa dedicada a la venta y reparación de computadoras, teléfonos, sistemas de voz y datos, equipos de video y máquinas de coser. </p>
+        <p class="white">Nos mantenemos actualizados en los avances tecnológicos de nuestro rubro, para brindarte exactamente lo que necesitas de la mano de nuestros profesionales certificados.</p>
         <button class="btn-yellow">SABER MÁS</button>
     </div>
 </section>
@@ -42,7 +42,7 @@
 
 <section id="brindamos">
     <div class="contenedor-center">
-        <h2><span class="light-big-black">Te brindamos el mejor</span>
+        <h2><span class="light-big-black">Te brindamos el mejor</span><br>
         <span class="bigest-sandia">Servicio</span></h2>
         <p class="light-mid-black">
         en todas estas marcas
@@ -61,8 +61,8 @@
     <div class="contenedor">
         <div class="flex">
             <div class="col">
-                <h2><b><span class="light-big-sandia">Beneficios</span></b>
-                <span class="bigest-sandia">Adicionales</span></h2>
+                <h2><b><span class="light-bigest-sandia">Beneficios</span></b><br>
+                <span class="giant-sandia">Adicionales</span></h2>
             </div>
             <div class="col">
                 <h3 class="big-sandia">Te brindamos el mejor servicio</h3>
@@ -77,7 +77,7 @@
 <section id="contacto">
     <div class="flex">
         <div class="col">
-            <h2 class="bigest-white">CONTACTO 
+            <h2 class="bigest-white">CONTACTO <br>
             <span class="giant-white">NOVUS</span></h2>
         </div>
         <div class="col">
