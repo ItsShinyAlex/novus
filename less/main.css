@@ -125,6 +125,14 @@ p.black {
   border: 0;
   padding: 4px 24px;
 }
+.btn-dead-yellow {
+  background-color: #e3b45b;
+  font-family: 'Allgemeine';
+  color: #c33043;
+  font-size: 30px;
+  border: 0;
+  padding: 4px 24px;
+}
 div.contenedor-center {
   margin: auto;
   width: 45%;
@@ -329,4 +337,60 @@ section.fondo-gris {
 #logros #col2-logros img {
   padding-left: 40px;
   width: 80%;
+}
+/* ==========================================================================
+   SERVICIOS
+   ========================================================================== */
+.herramientas {
+  background: url(../img/servicios/fondo-col2-herramientas-sandia.jpg) center no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+  padding: 0px 420px;
+}
+.herramientas h2 {
+  line-height: 150%;
+  padding-top: 140px;
+}
+.herramientas p.light-mid-white {
+  padding: 50px 100px;
+}
+.herramientas p {
+  padding: 0px 75px 20px 75px;
+}
+.flex-btn {
+  padding-bottom: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.flex-btn .col {
+  width: 38%;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+.flex-btn .col.align-self-center {
+  align-self: center;
+}
+.flex-btn .col.align-self-end {
+  align-self: flex-end;
+}
+#servicios {
+  background: url(../img/servicios/fondo-servicios-ethernet.jpg) center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+#servicios .flex h1 {
+  padding: 160px 125px 180px 0px;
+}
+#reparamos .flex .col {
+  padding: 0;
+}
+#reparamos .flex .col#corchetes {
+  background: url(../img/servicios/corchetes-amarillos.png) center 275px no-repeat, url(../img/servicios/fondo-col2-herramientas-sandia.jpg) no-repeat center;
+}
+#reparamos .flex .col#tecnico {
+  background: url(../img/servicios/fondo-col-tecnico.jpg) no-repeat center;
 }

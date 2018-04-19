@@ -8,8 +8,8 @@
         <div class="flex">
             <div class="col"></div>
             <div class="col">
-                <h1>
-                    <span class="bigest-sandia">Novus</span>
+                <h1 class="shadow">
+                    <span class="bigest-sandia">Novus</span><br>
                     <span class="giant-sandia">Servicios</span>
                 </h1>
             </div>
@@ -19,20 +19,19 @@
 
 <section id="reparamos">
     <div class="flex">
-        <div class="col"></div>
-        <div class="col">
+        <div id="tecnico" class="col"></div>
+        <div id="corchetes" class="col herramientas">
             <h2>
-                <span class="light-big-white">Reparamos tus</span>
+                <span class="light-big-white">Reparamos tus</span><br>
                 <span class="bigest-white shadow">Equipos</span>
             </h2>
             <p class="light-mid-white">
                 Computadoras, impresoras y accesorios en garantía en nuestra oficina
             </p>
-            <img src="../img/servicios/corchetes-amarillos.png" alt="[ ]">
             <p class="white">
                 Reparamos tu equipos de cómputo, servidor, escaner, multifuncional, rotulador electrónico, proyector, plotter, no breaks, accesorios, tableta o pantalla.
             </p>
-            <div class="flex">
+            <div class="flex-btn">
                 <div class="col">
                     <button class="btn-dead-yellow">¡Contáctanos!</button>
                 </div>
@@ -93,7 +92,7 @@
             </div>
         </div>
         <div class="col">
-            <img src="../img/servicios/fondo-coser.jpg" alt="SINGER máquina de coser">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/servicios/fondo-coser.jpg" alt="SINGER máquina de coser">
         </div>
     </div>
 </section>
@@ -160,7 +159,7 @@
 
         <div class="flex">
             <div class="col">
-                <img src="../img/servicios/celular-mano-symbols.jpg" alt="celular y laptop">        
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/servicios/celular-mano-symbols.jpg" alt="celular y laptop">        
                 <h2><span class="light-mid-black"> ¿Cómo llevar mi equipo</span>
                 <span class="bigest-sandia">al servicio?</span></h2>
                 
@@ -188,7 +187,7 @@
                     <li>Actualizaremos el historial del equipo con tu fabricante. </li>
                     <li>Para tu satisfacción probaremos el equipo en tu presencia. </li>
                 </ul>
-                <img src="../img/servicios/lap-password.jpg" alt="libro y laptop">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/servicios/lap-password.jpg" alt="libro y laptop">
             </div>
         </div>
 </section>
@@ -210,13 +209,13 @@
                 <h2 class="big-sandia">Refacciones para tus Equipos</h2>
                 <p class="black">Ofrecemos a bajo costo, refaciones originales para tus equipos de las marcas Dell, Apple, Epson, Singer, Samsung, Brother, Tripp Lite, View Sonic y  HP. 
                 </p>
-                <img src="../img/servicios/motherboard.png" alt="tarjeta madre">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/servicios/motherboard.png" alt="tarjeta madre">
             </div>
             <div class="col gray">
                 
                 <h2 class="big-sandia">Cartuchos y tonners 100% originales</h2>
                 <p class="black">Tenemos al mejor precio, tus consumibles de impresión de todas las marcas. </p>
-                <img src="../img/servicios/cartuchos.png" alt="cartuchos de tinta">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/servicios/cartuchos.png" alt="cartuchos de tinta">
             </div>
         </div>
         
@@ -267,21 +266,21 @@
         <h2><span class="big-white">Soluciones en</span><br><span class="bigest-white">Tecnología</span></h2>
         <div class="flex">
             <div class="col">
-                <img src="../img/servicios/tuberia.jpg" alt="cableado certificado">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/servicios/tuberia.jpg" alt="cableado certificado">
                 <h3 class="big-white">Diseño e instalación de cableado estructurado </h3>
                 <p class="white">Ofrecemos cableado estructurado para voz y datos.  
                 Certificado por las marcas Condunet (Condumex), Belden y HUbbel. </p>
                 <button class="btn-dead-yellow">¡Contáctanos!</button>
-            </div>
+            </div>    
             <div class="col">
-                <img src="../img/servicios/video-wall.jpg" alt="video wall">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/servicios/video-wall.jpg" alt="video wall">
                 <h3 class="big-white">Diseño e implemantación de Video Wall</h3>
                 <p class="white">Representamos marcas como Samsung, LG y Viewsonic
                  ¡Consigue tu video wall hoy!</p>
                 <button class="btn-dead-yellow">¡Contáctanos!</button>
             </div>
             <div class="col">
-                <img src="../img/servicios/digital-signals.jpg" alt="señalización digital">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/servicios/digital-signals.jpg" alt="señalización digital">
                 <h3 class="big-white">Diseño e instalación de Señalización digital</h3>
                 <p class="white">os un proyecto personalizado de transisión dinámica audiovisual, para tus pantallas. 
                  </p>
