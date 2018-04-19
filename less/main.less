@@ -110,6 +110,12 @@ p{
     font-size: @l-mid;
 }
 
+.light-mid-white{
+    color: @gris;
+    font-family: 'Architekt';
+    font-size: @l-mid;
+}
+
 
 
 
@@ -176,6 +182,25 @@ div.contenedor-center{
     width: 45%;
     padding: 10px; 
     text-align: center;
+}
+
+div.flex .gradient{
+    
+        padding-top: 160px;
+        padding-bottom: 100px;
+        padding-left: 80px;
+        padding-right: 55px;
+        background: linear-gradient(to bottom, #f4e181, #d27943);
+        //background-size: cover;
+        h1{
+            line-height: 160%;
+        }
+    }
+
+section.fondo-gris{ //esta clase apareció apartir de "about"
+    background-color: @gris-oscuro;
+    background: url(../img/about/fondo-logros-gris.jpg) no-repeat center;
+    background-size: cover;
 }
 
 /* ==========================================================================
@@ -266,8 +291,15 @@ div.contenedor-center{
     background-size: cover;
     
     .flex{
+        
         padding-top: 60px;
         padding-bottom: 60px;
+        #icons{
+            width: 7%;
+        }
+        .col{
+            width: 45%;
+        }
         h2{
             padding: 25px 0px 0px 65px;
             line-height: 180%;
@@ -275,6 +307,7 @@ div.contenedor-center{
                 font-size: 96px;
             }
         }
+
     }
 }
 
@@ -298,7 +331,7 @@ div.contenedor-center{
     
     div.flex{
         padding-top: 110px;
-        padding-bottom: 40px;
+        padding-bottom: 50px;
         .col{
             padding: 0px 80px;
             h2{
@@ -311,12 +344,13 @@ div.contenedor-center{
     
     #melon{     
          background: url(../img/porque/circulo-melon.png) center top no-repeat;
+         background-size: 48%;
         h2{
             padding-top: 85px;
             text-align: center;
         }
         p{
-            padding-top: 50%;
+            padding-top: 25%;
         }
     }
 }
@@ -331,12 +365,84 @@ div.contenedor-center{
             width: 33.3%;
             text-align: center;
             h2{
-                padding-top: 100px;
+                padding-top: 120px;
                 
             }
             p{
                 padding-top: 10px;
             }
         }
+    }
+}
+
+/* ==========================================================================
+   QUIENES SOMOS? (ABOUT)
+   ========================================================================== */
+
+#whoweare{
+    #col2{
+        background: url(../img/about/fondo-columna-traje-filtroPixeles.jpg) center no-repeat;
+        background-size: cover; 
+    }
+}
+
+#mision-vision{
+    background: url(../img/home/fondo-sandia-piramide.jpg) no-repeat center;
+    
+    img#c1-dev{
+        margin-top: 180px;
+         //padding-top: 180px;
+        width: 110%;
+    }
+    
+    .flex{
+        padding: 125px 30px 100px 50px;
+        
+        p{
+            line-height: 120%;
+        }
+        #right{
+            padding-right: 60px;
+            text-align: right;
+            
+            img{
+                position:relative;
+                left: -90px; 
+            }
+        }
+            
+    }
+}
+
+#logros{
+    h2{
+        padding-top: 160px;
+        padding-bottom: 60px;
+    }
+    img{
+        width:  100%;
+        padding-top: 30px;
+    }
+    .flex{
+        padding-bottom: 125px;
+        .col{
+            text-align: left; 
+            #walmart{
+                padding-top: 130px;
+                padding-bottom: 50px;
+            }
+            
+        }
+        
+        p{
+            padding-top: 50px;
+        }
+    }
+    #col2-logros{
+       img{
+            padding-left: 40px;
+            //float: right;
+            width:  80%;
+        } 
     }
 }

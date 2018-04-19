@@ -74,6 +74,11 @@ p.black {
   font-family: 'Architekt';
   font-size: 32px;
 }
+.light-mid-white {
+  color: #f3f3f2;
+  font-family: 'Architekt';
+  font-size: 32px;
+}
 .big-white {
   color: #f3f3f2;
   font-family: 'Allgemeine';
@@ -125,6 +130,21 @@ div.contenedor-center {
   width: 45%;
   padding: 10px;
   text-align: center;
+}
+div.flex .gradient {
+  padding-top: 160px;
+  padding-bottom: 100px;
+  padding-left: 80px;
+  padding-right: 55px;
+  background: linear-gradient(to bottom, #f4e181, #d27943);
+}
+div.flex .gradient h1 {
+  line-height: 160%;
+}
+section.fondo-gris {
+  background-color: #ebebeb;
+  background: url(../img/about/fondo-logros-gris.jpg) no-repeat center;
+  background-size: cover;
 }
 /* ==========================================================================
    HOME
@@ -191,6 +211,12 @@ div.contenedor-center {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+#contacto .flex #icons {
+  width: 7%;
+}
+#contacto .flex .col {
+  width: 45%;
+}
 #contacto .flex h2 {
   padding: 25px 0px 0px 65px;
   line-height: 180%;
@@ -215,7 +241,7 @@ div.contenedor-center {
 }
 #centro-autorizado div.flex {
   padding-top: 110px;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 #centro-autorizado div.flex .col {
   padding: 0px 80px;
@@ -226,13 +252,14 @@ div.contenedor-center {
 }
 #centro-autorizado #melon {
   background: url(../img/porque/circulo-melon.png) center top no-repeat;
+  background-size: 48%;
 }
 #centro-autorizado #melon h2 {
   padding-top: 85px;
   text-align: center;
 }
 #centro-autorizado #melon p {
-  padding-top: 50%;
+  padding-top: 25%;
 }
 #ventajas {
   background-color: #ebebeb;
@@ -245,8 +272,61 @@ div.contenedor-center {
   text-align: center;
 }
 #ventajas .flex .col h2 {
-  padding-top: 100px;
+  padding-top: 120px;
 }
 #ventajas .flex .col p {
   padding-top: 10px;
+}
+/* ==========================================================================
+   QUIENES SOMOS? (ABOUT)
+   ========================================================================== */
+#whoweare #col2 {
+  background: url(../img/about/fondo-columna-traje-filtroPixeles.jpg) center no-repeat;
+  background-size: cover;
+}
+#mision-vision {
+  background: url(../img/home/fondo-sandia-piramide.jpg) no-repeat center;
+}
+#mision-vision img#c1-dev {
+  margin-top: 180px;
+  width: 110%;
+}
+#mision-vision .flex {
+  padding: 125px 30px 100px 50px;
+}
+#mision-vision .flex p {
+  line-height: 120%;
+}
+#mision-vision .flex #right {
+  padding-right: 60px;
+  text-align: right;
+}
+#mision-vision .flex #right img {
+  position: relative;
+  left: -90px;
+}
+#logros h2 {
+  padding-top: 160px;
+  padding-bottom: 60px;
+}
+#logros img {
+  width: 100%;
+  padding-top: 30px;
+}
+#logros .flex {
+  padding-bottom: 125px;
+}
+#logros .flex .col {
+  text-align: left;
+}
+#logros .flex .col #walmart {
+  padding-top: 130px;
+  padding-bottom: 50px;
+}
+#logros .flex p {
+  padding-top: 50px;
+}
+#logros #col2-logros img {
+  padding-left: 40px;
+  width: 80%;
 }

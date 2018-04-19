@@ -5,7 +5,7 @@
 
 <section id="porque-elegirnos">
     <div class="contenedor-center">
-        <h1><span class="light-big-sandia">¿Porqué </span>
+        <h1><span class="light-big-sandia">¿Porqué </span><br>
             <span class="giant-sandia">elegirnos?</span>
         </h1>
     </div>
@@ -16,8 +16,8 @@
         <div class="flex">
             <div id="melon" class="col">
                 <h2>
-                    <span class="light-mid-white">Somos Centro </span>
-                    <span class="light-big-white">Autorizado de las</span>
+                    <span class="light-mid-white">Somos Centro </span><br>
+                    <span class="light-big-white">Autorizado de las</span><br>
                     <span class="bigest-white shadow">mejores marcas</span>
                 </h2>
      

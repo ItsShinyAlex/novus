@@ -80,12 +80,20 @@
             <h2 class="bigest-white">CONTACTO <br>
             <span class="giant-white">NOVUS</span></h2>
         </div>
+        <div id="icons" class="col">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/002-phone-call.svg" alt="teléfono"> 
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/001-pin.svg" alt="ubicación">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/003-clock.svg" alt="horario reloj">
+        </div>
         <div class="col">
+                
             <h3>TELÉFONO</h3>
             <p>55 5589 8928</p>
+            
             <h3></h3>
             <p>local 109 CDMX</p>
             <h3></h3>
+            
             <p>Lunes a Viernes de<br>
                 9:00 am a 6 pm<br> 
                 Sábado de<br> 
