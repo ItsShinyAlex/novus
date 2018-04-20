@@ -32,6 +32,28 @@
 .flex .col.align-self-end {
   align-self: flex-end;
 }
+ul {
+  color: black;
+  font-family: 'Architekt';
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+li {
+  color: black;
+  font-family: 'Architekt';
+  padding-left: 1em;
+  text-indent: -0.7em;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 115%;
+}
+ul li::before {
+  content: "• ";
+  color: #c33043;
+}
 .shadow {
   text-shadow: 1px 1px 8px #000000;
 }
@@ -71,6 +93,11 @@ p.black {
 }
 .light-mid-black {
   color: black;
+  font-family: 'Architekt';
+  font-size: 32px;
+}
+.light-mid-sandia {
+  color: #c33043;
   font-family: 'Architekt';
   font-size: 32px;
 }
@@ -157,19 +184,19 @@ section.fondo-gris {
 /* ==========================================================================
    HOME
    ========================================================================== */
-#reparamos .col {
+#reparamos-inicio .col {
   padding-top: 160px;
   padding-bottom: 100px;
 }
-#reparamos #reparamos1 {
+#reparamos-inicio #reparamos1 {
   padding-left: 65px;
   padding-right: 25px;
   background: linear-gradient(to bottom, #f4e181, #d27943);
 }
-#reparamos #reparamos2 {
+#reparamos-inicio #reparamos2 {
   background-color: #ebebeb;
 }
-#reparamos #reparamos2 img#all-devices {
+#reparamos-inicio #reparamos2 img#all-devices {
   position: relative;
   left: -44px;
 }
@@ -193,7 +220,7 @@ section.fondo-gris {
   margin-top: 70px;
 }
 #brindamos .flex .col {
-  width: 25%;
+  width: 23%;
 }
 #brindamos img#bro {
   position: relative;
@@ -346,7 +373,7 @@ section.fondo-gris {
   background-size: cover;
   text-align: center;
   margin: 0;
-  padding: 0px 420px;
+  padding: 0px 20px;
 }
 .herramientas h2 {
   line-height: 150%;
@@ -356,6 +383,7 @@ section.fondo-gris {
   padding: 50px 100px;
 }
 .herramientas p {
+  line-height: 120%;
   padding: 0px 75px 20px 75px;
 }
 .flex-btn {
@@ -393,4 +421,258 @@ section.fondo-gris {
 }
 #reparamos .flex .col#tecnico {
   background: url(../img/servicios/fondo-col-tecnico.jpg) no-repeat center;
+}
+#dispositivos {
+  background: url(../img/servicios/fondo-white-devices-shirt.jpg) center no-repeat;
+  background-size: cover;
+}
+#dispositivos .sqrt-dead-yellow {
+  margin: 125px 0px 140px 50px;
+  padding: 65px 20px;
+  text-align: center;
+  background-color: #e5ba68;
+}
+#dispositivos .flex-btn .col {
+  width: 47%;
+  padding: 0;
+  margin: 0;
+}
+#garantia {
+  background-color: #cf7639;
+}
+#garantia #singer {
+  background: url(../img/servicios/fondo-coser.jpg) center no-repeat;
+  background-size: cover;
+}
+#garantia .flex .col {
+  text-align: center;
+  padding: 120px 10px 100px 10px;
+}
+#garantia .flex .col h2 {
+  line-height: 160%;
+}
+#garantia .flex .col p {
+  line-height: 130%;
+  padding: 0px 75px 20px 75px;
+}
+#garantia .flex .col .flex-btn .col {
+  width: 39%;
+  padding: 0;
+  margin: 0;
+}
+#moviles {
+  background: url(../img/servicios/fondo-mini-ingenieros.jpg) center no-repeat;
+  background-size: cover;
+}
+#moviles .sqrt-sandia {
+  margin: 125px 50px 140px 10px;
+  padding: 65px 20px;
+  text-align: center;
+  background-color: #c33043;
+  opacity: 0.95;
+}
+#moviles .flex-btn .col {
+  width: 48%;
+  padding: 0;
+  margin: 0;
+}
+#moviles p {
+  padding: 0px 30px;
+  line-height: 110%;
+  padding-bottom: 30px;
+}
+#moviles h2 {
+  line-height: 150%;
+}
+#proyectores #impresora {
+  background: url(../img/servicios/fondo-impresora-epson.jpg) center no-repeat;
+  background-size: cover;
+}
+#proyectores .herramientas p.light-mid-white {
+  padding: 0;
+}
+#proyectores .flex-btn {
+  padding-bottom: 100px;
+}
+#proyectores .flex-btn .col {
+  width: 41%;
+  padding: 0;
+  margin: 0;
+}
+#que-como {
+  background: url(../img/servicios/fondo-gris-circuitos.jpg) center no-repeat;
+  background-size: cover;
+}
+#que-como .center {
+  padding-left: 120px;
+  padding-right: 50px;
+}
+#que-como h2 {
+  line-height: 155%;
+}
+#que-como ul {
+  padding-bottom: 80px;
+}
+#que-como img {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+#que-como .flex {
+  padding: 125px 0px 200px 0px;
+}
+#que-como .flex .col {
+  text-align: left;
+}
+#que-como .flex p {
+  padding-top: 50px;
+}
+#vendemos div.contenedor-center {
+  margin: 0;
+  max-width: 1326px;
+  padding-top: 0px;
+  width: 100%;
+}
+#vendemos .flex {
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px 80px 10px;
+}
+#vendemos .flex .gray {
+  background-color: #ebebeb;
+}
+#vendemos .flex .col {
+  margin: 0px 8px;
+  height: 600px;
+  width: 27%;
+  text-align: center;
+}
+#vendemos .flex .col h3 {
+  padding-top: 80px;
+  font-size: 26px;
+}
+#vendemos .flex .col .light-mid-sandia {
+  font-size: 24px;
+}
+#vendemos .flex .col p {
+  padding: 10px 35px 0px 35px;
+  line-height: 115%;
+}
+#vendemos .flex .col #iphone {
+  position: relative;
+  left: -200px;
+  top: -140px;
+}
+#vendemos .flex .col #mb {
+  position: relative;
+  left: -10px;
+  top: 120px;
+}
+#vendemos .flex .col #tinta {
+  position: relative;
+  left: 10px;
+  top: 210px;
+}
+#vendemos .flex-btn {
+  padding-bottom: 0px;
+  padding-top: 100px;
+}
+#vendemos .flex-btn .col {
+  width: 20%;
+  padding: 0;
+  margin: 0;
+}
+#vendemos #cpu-dell {
+  position: relative;
+  left: -70px;
+  top: 180px;
+}
+#vendemos #impresora {
+  position: relative;
+  left: 0px;
+  top: 210px;
+}
+#planes {
+  padding-top: 90px;
+  padding-bottom: 100px;
+  background-color: #ebebeb;
+}
+#planes .center {
+  text-align: right;
+  padding-left: 250px;
+  padding-right: 20px;
+}
+#planes h2.interlineado {
+  line-height: 220%;
+}
+#planes p {
+  line-height: 120%;
+}
+#planes .padding-top {
+  padding-top: 200px;
+}
+#planes div.high-padding {
+  padding: 0px 120px 0px 50px;
+}
+#planes .flex-btn {
+  padding-bottom: 0px;
+  padding-top: 20px;
+}
+#planes .flex-btn .col {
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+#soluciones-tec {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: url(../img/home/fondo-sandia-piramide.jpg) no-repeat center;
+}
+#soluciones-tec h2 {
+  line-height: 200%;
+}
+#soluciones-tec div.contenedor-center {
+  margin: 0;
+  max-width: 1326px;
+  padding-top: 0px;
+  width: 100%;
+}
+#soluciones-tec .flex {
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px 80px 10px;
+}
+#soluciones-tec .flex img {
+  width: 100%;
+}
+#soluciones-tec .flex .col {
+  margin: 0px;
+  height: 500px;
+  width: 27%;
+  align-content: center;
+  text-align: center;
+}
+#soluciones-tec .flex .col h3 {
+  padding-top: 80px;
+  font-size: 26px;
+}
+#soluciones-tec .flex .col .light-mid-sandia {
+  font-size: 24px;
+}
+#soluciones-tec .flex .col p {
+  padding: 10px 35px 0px 35px;
+  line-height: 115%;
+}
+#soluciones-tec .flex-btn {
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+#soluciones-tec .flex-btn .col {
+  width: 20%;
+  padding: 0;
+  margin: 0px 45px;
 }

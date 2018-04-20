@@ -25,6 +25,8 @@
 @yellow-dead-background: #e5ba68;
 @naranja-fondo: #cf7639;
 
+
+
 .flex {
     display: flex;
     flex-wrap: wrap;
@@ -48,6 +50,33 @@
             align-self: flex-end;
         }
     }
+}
+
+ul {
+  color: black;
+  font-family: 'Architekt';     
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  
+}
+
+li {
+  color: black;
+  font-family: 'Architekt';
+  padding-left: 1em; 
+  text-indent: -.7em;
+  font-size: 24px;
+  font-weight: 600; 
+  line-height: 115%;    
+}
+
+
+ul li::before {
+  content: "• ";
+  color: @sandia; 
 }
 
 ////////////////////// TEXT //////////////////////
@@ -106,6 +135,12 @@ p{
 
 .light-mid-black{
     color: black;
+    font-family: 'Architekt';
+    font-size: @l-mid;
+}
+
+.light-mid-sandia{
+    color: @sandia;
     font-family: 'Architekt';
     font-size: @l-mid;
 }
@@ -217,7 +252,8 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
    HOME
    ========================================================================== */
 
-#reparamos{
+#reparamos-inicio{
+    
     //background: url(../img/home/fondo-columna-section1.jpg) no-repeat left;    
     //background-color: @gris-oscuro;
     .flex{
@@ -273,7 +309,7 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
     .flex {
         margin-top: 70px;
         .col {
-        width: 25%;            
+        width: 23%;            
         }
     }
     img#bro{
@@ -466,7 +502,7 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
     background-size: cover;
     text-align: center;
     margin: 0;
-    padding: 0px 420px;
+    padding: 0px 20px;
     h2{
         line-height: 150%;
         padding-top: 140px;
@@ -475,6 +511,7 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
         padding: 50px 100px;
     }
     p{
+        line-height: 120%;
         padding: 0px 75px 20px 75px;
     }
 
@@ -536,34 +573,312 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
 }
 
 #dispositivos{
-
+    .sqrt-dead-yellow{
+        margin: 125px 0px 140px 50px;
+        padding: 65px 20px;
+        text-align: center;
+        background-color: @yellow-dead-background;
+    }
+    
+    background: url(../img/servicios/fondo-white-devices-shirt.jpg) center no-repeat;
+    background-size: cover;
+    
+    .flex-btn{
+        .col{
+            width: 47%;
+            padding: 0;
+            margin: 0;
+        }
+     }
+    
 }
 
 #garantia{
-    
+    background-color: @naranja-fondo;
+    #singer{
+        background: url(../img/servicios/fondo-coser.jpg) center no-repeat;
+        background-size: cover;
+    }
+    .flex
+    {
+        .col{
+            text-align: center;
+            padding: 120px 10px 100px 10px;
+            h2{
+                line-height: 160%;
+            }
+            p{
+                line-height: 130%;
+                padding: 0px 75px 20px 75px;
+            }
+            .flex-btn{
+                .col{
+                    width: 39%;
+                    padding: 0;
+                    margin: 0;
+                 }
+           }
+            
+        }
+    }
 }
 
 #moviles{
+    .sqrt-sandia{
+        margin: 125px 50px 140px 10px;
+        padding: 65px 20px;
+        text-align: center;
+        background-color: @sandia;
+        opacity: 0.95;
+    }
+    background: url(../img/servicios/fondo-mini-ingenieros.jpg) center no-repeat;
+    background-size: cover;
     
+    .flex-btn{
+        .col{
+            width: 48%;
+            padding: 0;
+            margin: 0;
+        }
+     }
+    
+    p{
+        padding: 0px 30px;
+        line-height: 110%;
+        padding-bottom: 30px;
+    }
+    h2{
+        line-height: 150%
+    }
 }
 
 #proyectores{
-    
+    #impresora{
+        background: url(../img/servicios/fondo-impresora-epson.jpg) center no-repeat;
+        background-size: cover;
+    }
+    .herramientas{
+        p.light-mid-white{
+        padding: 0;
+        }
+    }
+     .flex-btn{
+         padding-bottom: 100px;
+        .col{
+            width: 41%;
+            padding: 0;
+            margin: 0;
+            
+        }
+    }
+
 }
 
 #que-como{
+    background: url(../img/servicios/fondo-gris-circuitos.jpg) center no-repeat;
+        background-size: cover;
+    .center{
+        padding-left: 120px;
+        padding-right: 50px;
+    }
+    h2{
+        line-height: 155%;
+    }
+    ul{
+        padding-bottom: 80px;
+    }
+    img{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        width: 100%;
+    }
+    .flex{
+        padding: 125px 0px 200px 0px;
+        .col{
+            text-align: left;             
+        }     
+        p{
+            padding-top: 50px;
+        }
+    }
+    
+   
+    
+    
     
 }
 
 #vendemos{
+
+    div.contenedor-center{
+        margin: 0;
+        max-width: 1326px;
+        padding-top: 0px;
+        width: 100%;
+    }
+    .flex{
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 10px 80px 10px;
+        
+        .gray{
+            background-color: @gris-oscuro;
+            
+        }
+        .col{
+            margin: 0px 8px;
+            height: 600px;
+            
+            width: 27%;
+            
+            text-align: center;
+            h3{
+                padding-top: 80px;
+                font-size: 26px;
+            }
+            .light-mid-sandia{
+                font-size: 24px;
+            }
+            p{
+                padding: 10px 35px 0px 35px;
+                line-height: 115%;
+            }
+
+                #iphone{
+                    position:relative;
+                    left: -200px;
+                    top: -140px;
+                }
+                #mb{
+                    position:relative;
+                    left: -10px;
+                    top: 120px;  
+                }
+                #tinta
+                {
+                    
+                    position:relative;
+                    left: 10px;
+                    top: 210px;  
+                }
+                
+                
+        }
+
+    }
     
+     .flex-btn{
+        padding-bottom: 0px;
+        padding-top: 100px;
+        .col{
+            width: 20%;
+            padding: 0;
+            margin: 0;
+        }
+    }
+    
+    #cpu-dell{
+    position:relative;
+    left: -70px;
+    top: 180px;
+    }
+    #impresora{
+        position:relative;
+        left: 0px;
+        top: 210px;  
+    }
+   
 }
 
 #planes{
+     padding-top: 90px;
+    padding-bottom: 100px;
+    .center{
+        text-align: right;
+        padding-left: 250px;
+        padding-right: 20px;
+    }
     
+   
+    background-color: @gris-oscuro;
+    h2.interlineado{
+        line-height: 220%;
+    }
+    p{
+        line-height: 120%;
+    }
+    .padding-top{
+        padding-top: 200px;
+    }
+    
+    div.high-padding{
+        padding: 0px 120px 0px 50px;
+    }
+    .flex-btn{
+        padding-bottom: 0px;
+        padding-top: 20px;
+        .col{
+            width: 50%;
+            padding: 0;
+            margin: 0;
+        }
+    }
 }
 
 #soluciones-tec{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background:  url(../img/home/fondo-sandia-piramide.jpg) no-repeat center;
+    h2{
+        line-height: 200%;
+    }
+    div.contenedor-center{
+        margin: 0;
+        max-width: 1326px;
+        padding-top: 0px;
+        width: 100%;
+    }
+    .flex{
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 10px 80px 10px;
+        
+        img{
+            width: 100%;
+        }
+        .col{
+            margin: 0px;
+            height: 500px;
+            
+            width: 27%;
+            align-content: center;
+            text-align: center;
+            h3{
+                padding-top: 80px;
+                font-size: 26px;
+            }
+            .light-mid-sandia{
+                font-size: 24px;
+            }
+            p{
+                padding: 10px 35px 0px 35px;
+                line-height: 115%;
+            }                         
+        }
+    }
     
+     .flex-btn{
+        padding-bottom: 0px;
+        padding-top: 0px;
+        .col{
+            width: 20%;
+            padding: 0;
+            margin: 0px 45px;
+        }
+    }
 }
 

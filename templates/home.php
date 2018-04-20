@@ -3,7 +3,7 @@
     get_header();
 ?>
 
-<section id="reparamos">
+<section id="reparamos-inicio">
 
         <div  class="flex">
             <div id ="reparamos1" class="col">
