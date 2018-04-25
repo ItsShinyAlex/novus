@@ -33,10 +33,10 @@
             </p>
             <div class="flex-btn">
                 <div class="col">
-                    <button class="btn-dead-yellow">¡Contáctanos!</button>
+                    <a class="btn-dead-yellow">¡Contáctanos!</a>
                 </div>
                 <div class="col">
-                    <button class="btn-yellow">¿Cómo llegar?</button>
+                    <a class="btn-yellow">¿Cómo llegar?</a>
                 </div>    
             </div>
         </div>
@@ -58,10 +58,10 @@
                     <br>
                     <div class="flex-btn">
                         <div class="col">
-                            <button class="btn-sandia">¡Contáctanos!</button>
+                            <a class="btn-sandia">¡Contáctanos!</a>
                         </div>
                         <div class="col">
-                            <button class="btn-yellow">¿Cómo llegar?</button>
+                            <a class="btn-yellow">¿Cómo llegar?</a>
                         </div>    
                     </div>
                     
@@ -84,10 +84,10 @@
             
             <div class="flex-btn">
                 <div class="col">
-                    <button class="btn-sandia">¡Contáctanos!</button>
+                    <a class="btn-sandia">¡Contáctanos!</a>
                 </div>
                 <div class="col">
-                    <button class="btn-yellow">¿Cómo llegar?</button>
+                    <a class="btn-yellow">¿Cómo llegar?</a>
                 </div>    
             </div>
         </div>
@@ -115,10 +115,10 @@
                     
                         <div class="flex-btn">
                             <div class="col">
-                                <button class="btn-dead-yellow">¡Contáctanos!</button>
+                                <a class="btn-dead-yellow">¡Contáctanos!</a>
                             </div>
                             <div class="col">
-                                <button class="btn-yellow">¿Cómo llegar?</button>
+                                <a class="btn-yellow">¿Cómo llegar?</a>
                             </div>    
                         </div>
                 </div>            
@@ -146,10 +146,10 @@
             </p>
             <div class="flex-btn">
                 <div class="col">
-                    <button class="btn-dead-yellow">¡Contáctanos!</button>
+                    <a class="btn-dead-yellow">¡Contáctanos!</a>
                 </div>
                 <div class="col">
-                    <button class="btn-yellow">¿Cómo llegar?</button>
+                    <a class="btn-yellow">¿Cómo llegar?</a>
                 </div>    
             </div>
         </div>
@@ -221,10 +221,10 @@
         
         <div class="flex-btn">
             <div class="col">
-                <button class="btn-dead-yellow">¡Contáctanos!</button>
+                <a class="btn-dead-yellow">¡Contáctanos!</a>
             </div>
             <div class="col">
-                <button class="btn-yellow">¿Cómo llegar?</button>
+                <a class="btn-yellow">¿Cómo llegar?</a>
             </div>    
         </div>
         
@@ -251,11 +251,11 @@
                 
                 <div class="flex-btn">
                     <div class="col">
-                        <button class="btn-dead-yellow">¡Contáctanos!</button>
+                        <a class="btn-dead-yellow">¡Contáctanos!</a>
                     </div>
                     
                     <div class="col">
-                        <button class="btn-yellow">¿Cómo llegar?</button>
+                        <a class="btn-yellow">¿Cómo llegar?</a>
                     </div>
                         
                 </div>
@@ -296,13 +296,13 @@
         
         <div class="flex-btn">
             <div class="col">
-                <button class="btn-dead-yellow">¡Contáctanos!</button>
+                <a class="btn-dead-yellow">¡Contáctanos!</a>
             </div>    
             <div class="col">
-                <button class="btn-dead-yellow">¡Contáctanos!</button>
+                <a class="btn-dead-yellow">¡Contáctanos!</a>
             </div>
             <div class="col">
-                <button class="btn-dead-yellow">¡Contáctanos!</button>
+                <a class="btn-dead-yellow">¡Contáctanos!</a>
             </div>
         </div>
         

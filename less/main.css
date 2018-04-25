@@ -188,6 +188,9 @@ section.fondo-gris {
   padding-top: 160px;
   padding-bottom: 100px;
 }
+#reparamos-inicio .col p {
+  padding-bottom: 20px;
+}
 #reparamos-inicio #reparamos1 {
   padding-left: 65px;
   padding-right: 25px;
@@ -206,6 +209,9 @@ section.fondo-gris {
 #who h2 {
   padding-top: 465px;
   padding-bottom: 80px;
+}
+#who .btn-pad {
+  padding-bottom: 70px;
 }
 #who div.contenedor-center {
   padding-bottom: 120px;
@@ -238,6 +244,9 @@ section.fondo-gris {
   padding: 40px 0px 0px 65px;
   line-height: 180%;
 }
+#beneficios .flex .btn-pad {
+  padding-bottom: 20px;
+}
 #contacto {
   background: url(../img/home/fondo-contacto.jpg) center no-repeat;
   background-size: cover;
@@ -258,6 +267,9 @@ section.fondo-gris {
 }
 #contacto .flex h2 .giant-white {
   font-size: 96px;
+}
+#contacto .flex .btn-pad {
+  padding-bottom: 20px;
 }
 /* ==========================================================================
    PORQUÉ ELEGIRNOS
@@ -318,6 +330,9 @@ section.fondo-gris {
 #whoweare #col2 {
   background: url(../img/about/fondo-columna-traje-filtroPixeles.jpg) center no-repeat;
   background-size: cover;
+}
+#whoweare p {
+  padding-bottom: 30px;
 }
 #mision-vision {
   background: url(../img/home/fondo-sandia-piramide.jpg) no-repeat center;
@@ -675,4 +690,37 @@ section.fondo-gris {
   width: 20%;
   padding: 0;
   margin: 0px 45px;
+}
+#footer {
+  background: url(../img/home/fondo-contacto.jpg) no-repeat center;
+}
+#footer p,
+#footer h2 {
+  color: white;
+  font-size: 18px;
+}
+#footer p {
+  margin-top: -12px;
+}
+#footer .flex {
+  padding: 20px 50px 20px 220px;
+}
+#footer .flex .col {
+  width: 33%;
+}
+#footer .flex .col img {
+  width: 21%;
+  position: relative;
+  right: 80px;
+  top: 50px;
+}
+#footer .flex .col img#fclock {
+  width: 15%;
+  top: 70px;
+}
+#footer .flex .col a {
+  font-size: 18px;
+}
+#footer .flex .col#fsmaller {
+  padding-left: 70px;
 }

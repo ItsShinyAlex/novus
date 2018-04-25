@@ -17,7 +17,7 @@
             avances tecnológicos de nuestro rubro, para
              brindarte exactamente lo que necesitas de la
             mano de nuestros profesionales certificados.</p>
-            <button class="btn-yellow">MÁS INFORMACIÓN</button>
+            <a class="btn-yellow">MÁS INFORMACIÓN</a>
         </div>
         <div id="col2" class="col">
             

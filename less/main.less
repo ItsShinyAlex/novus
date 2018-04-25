@@ -262,6 +262,9 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
     .col{
         padding-top: 160px;
         padding-bottom: 100px;
+        p{
+            padding-bottom: 20px;
+        }
         
     }
     #reparamos1{
@@ -289,10 +292,13 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
         padding-top: 465px;
         padding-bottom: 80px;
     }
+    .btn-pad{
+        padding-bottom: 70px;
+    }
     div.contenedor-center{
         padding-bottom: 120px;
         .btn-yellow{
-            margin-top: 55px;
+            margin-top: 55px; //anterior a a
             
         }
     }
@@ -329,6 +335,9 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
             line-height: 180%;
             
         }
+        .btn-pad{
+            padding-bottom: 20px;
+        }
     }
 }
 
@@ -352,6 +361,9 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
             .giant-white{
                 font-size: 96px;
             }
+        }
+        .btn-pad{
+            padding-bottom: 20px;
         }
 
     }
@@ -426,9 +438,13 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
    ========================================================================== */
 
 #whoweare{
+ 
     #col2{
         background: url(../img/about/fondo-columna-traje-filtroPixeles.jpg) center no-repeat;
         background-size: cover; 
+    }
+    p{
+        padding-bottom: 30px;
     }
 }
 
@@ -446,6 +462,7 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
         
         p{
             line-height: 120%;
+           
         }
         #right{
             padding-right: 60px;
@@ -456,7 +473,7 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
                 left: -90px; 
             }
         }
-            
+ 
     }
 }
 
@@ -496,6 +513,8 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
 /* ==========================================================================
    SERVICIOS
    ========================================================================== */
+
+
 
 .herramientas{
     background: url(../img/servicios/fondo-col2-herramientas-sandia.jpg) center no-repeat;
@@ -880,5 +899,44 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
             margin: 0px 45px;
         }
     }
+}
+
+/////////////////////////// FOOTER /////////////////////////////////
+
+#footer{
+    background: url(../img/home/fondo-contacto.jpg) no-repeat center;
+    p, h2{
+        color: white;
+        font-size: 18px;
+    }
+    p{
+        margin-top: -12px;
+    }
+    .flex{
+        padding: 20px 50px 20px 220px;
+        .col{
+            width: 33%;
+            img{
+            width: 21%;
+            position:relative;
+            right: 80px;
+            top: 50px;
+                &#fclock{
+                    width: 15%;
+                    top: 70px;
+                }
+            }
+            
+            a{
+                font-size: 18px;
+                
+            }
+            &#fsmaller{
+                padding-left: 70px;
+            }
+            
+        }
+    }
+    
 }
 

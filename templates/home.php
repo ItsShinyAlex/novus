@@ -15,7 +15,7 @@
                 <p class="white">Reparamos tus equipos, en garantía o por cargos 
                 somos agente autorizado de las mejores marcas.</p>
                 
-                <button class="btn-yellow">MÁS INFORMACIÓN</button>
+                <a class="btn-yellow">MÁS INFORMACIÓN</a>
             </div>
             <div id ="reparamos2" class="col">
                 <img id="all-devices" src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/computadoras.png" alt="computadoras, telefonos, impresoras" width="100%" height="100%">
@@ -29,8 +29,8 @@
         
         <h2 class="giant-white shadow">¿Quiénes Somos?</h2>
         <p class="white">Somos una empresa dedicada a la venta y reparación de computadoras, teléfonos, sistemas de voz y datos, equipos de video y máquinas de coser. </p>
-        <p class="white">Nos mantenemos actualizados en los avances tecnológicos de nuestro rubro, para brindarte exactamente lo que necesitas de la mano de nuestros profesionales certificados.</p>
-        <button class="btn-yellow">SABER MÁS</button>
+        <p class="white btn-pad">Nos mantenemos actualizados en los avances tecnológicos de nuestro rubro, para brindarte exactamente lo que necesitas de la mano de nuestros profesionales certificados.</p>
+        <a class="btn-yellow">SABER MÁS</a>
     </div>
 </section>
 
@@ -67,8 +67,8 @@
             <div class="col">
                 <h3 class="big-sandia">Te brindamos el mejor servicio</h3>
                 <p class="black">Satisfacemos tus necesidades de computación, refacciones y consumibles, de forma efectiva.</p>
-                <p class="black">Con atención personalizada, venta, reparación especializada y planes anuales que se adaptan a ti. </p>
-                <button class="btn-sandia">Saber más </button>
+                <p class="black btn-pad">Con atención personalizada, venta, reparación especializada y planes anuales que se adaptan a ti. </p>
+                <a class="btn-sandia">Saber más </a>
             </div>
         </div>
     </div>
@@ -94,11 +94,11 @@
             <p>local 109 CDMX</p>
             <h3></h3>
             
-            <p>Lunes a Viernes de<br>
+            <p class="btn-pad">Lunes a Viernes de<br>
                 9:00 am a 6 pm<br> 
                 Sábado de<br> 
                 9:00 am a 1:00 pm</p>
-            <button class="btn-yellow">¿Cómo llegar?</button>
+            <a class="btn-yellow">¿Cómo llegar?</a>
         </div>
     </div>
 </section>
