@@ -256,10 +256,19 @@ section.fondo-gris {
   padding-bottom: 60px;
 }
 #contacto .flex #icons {
-  width: 7%;
+  width: 8%;
+}
+#contacto .flex #icons img {
+  padding-bottom: 10px;
 }
 #contacto .flex .col {
   width: 45%;
+}
+#contacto .flex .contacto p,
+#contacto .flex .contacto h2 {
+  color: white;
+  font-size: 18px;
+  text-align: left;
 }
 #contacto .flex h2 {
   padding: 25px 0px 0px 65px;

@@ -85,16 +85,14 @@
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/001-pin.svg" alt="ubicación">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/003-clock.svg" alt="horario reloj">
         </div>
-        <div class="col">
-                
-            <h3>TELÉFONO</h3>
-            <p>55 5589 8928</p>
+        <div class="col contacto">        
+            <p>TELÉFONO<br>
+            55 5589 8928</p>
             
-            <h3></h3>
-            <p>local 109 CDMX</p>
-            <h3></h3>
-            
-            <p class="btn-pad">Lunes a Viernes de<br>
+            <p>Calzada de Tlalpan<br>
+            local 109 CDMX</p>
+  
+            <p class="btn-pad">HORARIO DE ATENCIÓN<br>Lunes a Viernes de<br>
                 9:00 am a 6 pm<br> 
                 Sábado de<br> 
                 9:00 am a 1:00 pm</p>
