@@ -1,44 +1,12 @@
 <?php
-    /* Template Name:  Principal*/ 
+    /* Template Name:  home*/ 
     get_header();
 ?>
 
 <section id="reparamos-inicio">
 
-        <div  class="flex">
-            <div id ="reparamos1" class="col">
-                <h1><span class="light-big-white">Reparamos tus</span><br>
-                <span class="bigest-white">computadoras,</span><br>
-                <span class="big-white">impresoras, teléfonos móviles</span><br>
-                <span class="light-big-white">y equipos de video.</span></h1>
-                           
-                <p class="white">Reparamos tus equipos, en garantía o por cargos 
-                somos agente autorizado de las mejores marcas.</p>
-                
-                <a class="btn-yellow">MÁS INFORMACIÓN</a>
-            </div>
-            <div id ="reparamos2" class="col">
-                <img id="all-devices" src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/computadoras.png" alt="computadoras, telefonos, impresoras" width="100%" height="100%">
-            </div>
-        </div>
-        
-        <div  class="flex center-h">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/audifonos.png" alt="audifonos beat, laptop, tablet">
-            <h1>
-                <span class="light-bigest-black">Reparamos</span><br>
-                <span class="bigest-sandia">Macbook, Macbook Pro</span><br>
-                <span class="big-black">Mac Pro, iPad, iPod, iWatch, Beats</span>             
-            </h1>
-        </div>
-        
-        <div class="contenedor-center">
-            <div class="right">
-            <a href="#" class="btn-yellow">VER MÁS</a>
-            </div>
-            <div class="left">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/apple-centro.png" alt="centro autorizado apple">
-            </div>
-        </div>
+      <?php do_shortcode("[rev_slider alias='home1']"); ?>
+      <?php putRevSlider("home1", "home-new.php"); ?>
 
 </section>
 
@@ -59,20 +27,23 @@
 </section>
 
 <section id="brindamos">
-    <div class="contenedor-center">
-        <h2><span class="light-big-black">Te brindamos el mejor</span><br>
-        <span class="bigest-sandia">Servicio</span></h2>
-        <p class="light-mid-black">
-        en todas estas marcas
-        </p>
-        
+   
+   <div class="flex">
+       <div class="col" id="col-servicio">
+            <div class="contenedor-center">
+            <h2><span class="light-big-black">Te brindamos el mejor</span><br>
+            <span class="bigest-sandia">Servicio</span></h2>
+            <p class="light-mid-black">
+            en todas estas marcas
+            </p>       
+       </div>
     </div>
-    <div class="flex">
-        <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/dell.png" alt="DELL"></div>
-        <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/epson.png" alt="EPSON"></div>
-        <div class="col"><img id="bro" src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/brother.svg" alt="brother at your side" width="100%" height="100%"></div>
-        <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/samsung.png" alt="SAMSUNG"></div>
-    </div>
+      
+       <div class="col" id="col-logos">
+           <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/all-logos.png" alt="dell, epson, brother, samsung">
+       </div>
+   </div>
+   
 </section>
 
 <section id="beneficios">

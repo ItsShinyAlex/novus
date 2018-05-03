@@ -1,0 +1,559 @@
+// main: main.less
+
+@media screen and (max-width:650px){
+    @l-big: 18px;
+    @l-mid: 12px;
+    @l-bigest: 20px;
+    @l-giant: 18px;
+    @big: 12px;
+    @bigest: 22px;
+    @giant: 25px;
+    
+        .flex {
+        display: flex;
+        flex-wrap: wrap;
+
+        &.center-h {
+            justify-content: center;
+            text-align: center;
+        }
+
+        &.nowrap {
+            flex-wrap: nowrap;
+        }
+
+        .col {
+            width: 50%;    
+            padding: 0px 10px;
+            box-sizing: border-box;
+            &.align-self-center {
+                align-self: center;
+            }
+            &.align-self-end {
+                align-self: flex-end;
+            }
+        }
+    }
+
+    ul {
+      color: black;
+      font-family: 'Architekt';     
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      font-size: 24px;
+      font-weight: 600;
+
+    }
+
+    li {
+      color: black;
+      font-family: 'Architekt';
+      padding-left: 1em; 
+      text-indent: -.7em;
+      font-size: 24px;
+      font-weight: 600; 
+      line-height: 115%;    
+    }
+
+
+    ul li::before {
+      content: "• ";
+      color: @sandia; 
+    }
+    
+    //////////// TEXT /////////////7
+    @txt: 10px;
+    @l-big: 18px;
+    @l-mid: 12px;
+    @l-bigest: 20px;
+    @l-giant: 18px;
+    @big: 12px;
+    @bigest: 22px;
+    @giant: 25px;
+    
+    p{
+         line-height: 90%;
+            &.white{
+
+            font-size: @txt;
+        } 
+        &.black{
+ 
+            font-size: @txt;
+            font-weight: 600;
+        }
+        &.blue{
+
+            font-size: 28px;
+            font-weight: 400;  
+        }      
+    }
+    
+    .light-bigest-sandia{
+
+    font-size: @l-bigest;
+}
+
+.light-bigest-black{
+  
+    font-size: @l-bigest;
+}
+
+.light-bigest-white{
+ 
+    font-size: @l-bigest;
+}
+
+.light-bigest-green{
+  
+    font-size: @l-bigest;
+}
+
+.light-big-sandia{
+
+    font-size: @l-big;
+}
+
+.light-big-white{
+ ;
+    font-size: @l-big;
+}
+
+.light-big-black{
+  
+    font-size: @l-big;
+}
+
+.light-mid-black{
+
+    font-size: @l-mid;
+}
+
+.light-mid-sandia{
+
+    font-size: @l-mid;
+}
+
+.light-mid-white{
+
+    font-size: @l-mid;
+}
+
+.light-giant-wine{
+
+    font-size: @l-giant;
+}
+
+.light-giant-green{
+ 
+    font-size: @l-giant;
+}
+
+
+
+
+.big-white{
+
+    font-size: @big;
+}
+
+.big-sandia{
+
+    font-size: @big;
+}
+
+.big-black{
+
+    font-size: @big;
+}
+
+.bigest-white{
+
+   font-size: @bigest;
+}
+
+.bigest-sandia{
+ 
+   font-size: @bigest;
+}
+
+.bigest-black{
+
+   font-size: @bigest;
+}
+
+.giant-sandia{
+
+   font-size: @giant;
+}
+
+.giant-white{
+  
+   font-size: @giant;
+}
+
+.giant-gold{
+
+    font-size: @giant;
+}
+
+.giant-wine{
+
+    font-size: @giant;
+}
+    
+    /////////////////BUTTONS/////////////////////
+    
+    @btn-font-size: 12px;
+
+.btn-yellow{
+    background-color: @yellow;
+    font-family: 'Allgemeine';
+    color: @sandia;
+    font-size: @btn-font-size;
+    border: 0;
+    padding: 2px 12px;
+    
+}
+
+.btn-sandia{
+    background-color: @sandia;
+    font-family: 'Allgemeine';
+    color: @gris;
+    font-size: @btn-font-size;
+    border: 0;
+    padding: 2px 12px;
+    
+}
+
+.btn-dead-yellow{
+    background-color: @yellow-dead;
+    font-family: 'Allgemeine';
+    color: @sandia;
+    font-size: @btn-font-size;
+    border: 0;
+    padding: 2px 12px;
+    
+}
+
+div.contenedor-center{
+    margin: auto;
+    width: 70%;
+    padding: 2px; 
+    text-align: center;
+}
+    
+    //HOME - PRINCIPAL//
+    
+
+
+#who{
+    background: /*url(../img/home/modern-devices.png) center 110px no-repeat,*/ url(../img/home/fondo-sandia-piramide.jpg) no-repeat center;
+    background-size: cover;
+    h2{
+        background: url(../img/home/modern-devices.png) center 40px no-repeat;
+        background-size: 90%;
+        padding-top: 80px;
+        padding-bottom: 15px;
+        
+    }
+    .btn-pad{
+        padding-bottom: 15px;
+    }
+    div.contenedor-center{
+        padding-bottom: 40px;
+
+    }
+}
+
+#nuestros-servicios{
+        }
+    
+#brindamos
+{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    .flex {
+        
+        #col-servicio {
+        width: 100%;   
+            .light-big-black{
+                line-height: -10px;
+            }
+        }
+        #col-logos {
+        width: 100%; 
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+#beneficios{
+    .flex{
+        padding-top: 25px;
+        padding-bottom: 15px;
+        h2{
+            padding: 10px 0px 0px 40px;
+            line-height: 90%;
+            
+        }
+        .btn-pad{
+            padding-bottom: 0px;
+        }
+        
+        .col{
+            width: 100%;
+        }
+    }
+}
+
+#contacto{
+    .flex{
+        
+        padding-top: 20px;
+        padding-bottom: 20px;
+        #icons{
+            
+            width: 0%;
+            img{padding-bottom: 0px;}
+            
+        }
+        .col{
+            width: 100%;         
+        }
+        .contacto{
+                p, h2{
+                    color: white;
+                    font-size: 18px;
+                    text-align: left;
+                }
+        }
+        h2{
+            padding: 10px 0px 0px 10px;
+            line-height: 130%;
+            .giant-white{
+                font-size: 40px;
+            }
+        }
+        .btn-pad{
+            padding-bottom: 5px;
+        }
+
+    }
+}
+    
+    //Slider Reset
+
+#reparamos-inicio{
+        
+            //////////// TEXT /////////////7
+        
+    @txt: 30px;
+    @l-big: 38px;
+    @l-mid: 32px;
+    @l-bigest: 44px;
+    @l-giant: 62px;
+    @big: 32px;
+    @bigest: 48px;
+    @giant: 68px;
+        
+    p{
+         line-height: 90%;
+            &.white{
+
+            font-size: @txt;
+        } 
+        &.black{
+ 
+            font-size: @txt;
+            font-weight: 600;
+        }
+        &.blue{
+
+            font-size: 28px;
+            font-weight: 400;  
+        }      
+    }
+    
+    .light-bigest-sandia{
+
+    font-size: @l-bigest;
+}
+
+.light-bigest-black{
+  
+    font-size: @l-bigest;
+}
+
+.light-bigest-white{
+ 
+    font-size: @l-bigest;
+}
+
+.light-bigest-green{
+  
+    font-size: @l-bigest;
+}
+
+.light-big-sandia{
+
+    font-size: @l-big;
+}
+
+.light-big-white{
+ ;
+    font-size: @l-big;
+}
+
+.light-big-black{
+  
+    font-size: @l-big;
+}
+
+.light-mid-black{
+
+    font-size: @l-mid;
+}
+
+.light-mid-sandia{
+
+    font-size: @l-mid;
+}
+
+.light-mid-white{
+
+    font-size: @l-mid;
+}
+
+.light-giant-wine{
+
+    font-size: @l-giant;
+}
+
+.light-giant-green{
+ 
+    font-size: @l-giant;
+}
+
+
+
+
+.big-white{
+
+    font-size: @big;
+}
+
+.big-sandia{
+
+    font-size: @big;
+}
+
+.big-black{
+
+    font-size: @big;
+}
+
+.bigest-white{
+
+   font-size: @bigest;
+}
+
+.bigest-sandia{
+ 
+   font-size: @bigest;
+}
+
+.bigest-black{
+
+   font-size: @bigest;
+}
+
+.giant-sandia{
+
+   font-size: @giant;
+}
+
+.giant-white{
+  
+   font-size: @giant;
+}
+
+.giant-gold{
+
+    font-size: @giant;
+}
+
+.giant-wine{
+
+    font-size: @giant;
+}
+        
+
+    
+    //background: url(../img/home/fondo-sec1.jpg) no-repeat center;
+    //background-size: auto;
+    
+    p{
+        &.blue{
+            text-align: right;
+        }
+        
+         line-height: 130%;
+    }
+    h2{
+        line-height: 185%;
+    }
+    .flex{
+        img{
+            //width: 100%;
+        }
+    }
+    
+    h1{
+        margin-top:-120px; 
+    }
+    
+    div.contenedor-center{
+        width: 80%;
+        height: 100px;
+        .right{
+       // align-items: flex-start;
+
+        }
+
+        .left{
+            //height: 700px;
+        }
+    }
+    
+    .col{
+        padding-top: 160px;
+        padding-bottom: 100px;
+        p{
+            padding-bottom: 20px;
+            
+        }
+        
+    }
+    #reparamos1{
+        padding-left: 65px;
+        padding-right: 25px;
+        //background: linear-gradient(to bottom, #f4e181, #d27943);
+        //background-size: cover;
+    }
+    #reparamos2{
+        //background-color: @gris-oscuro;
+        img#all-devices{
+            position:relative;
+            left: -44px;
+              
+        }
+    }
+
+}
+
+}

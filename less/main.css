@@ -17,6 +17,7 @@
 }
 .flex.center-h {
   justify-content: center;
+  text-align: center;
 }
 .flex.nowrap {
   flex-wrap: nowrap;
@@ -71,8 +72,29 @@ p.black {
   font-size: 23px;
   font-weight: 600;
 }
+p.blue {
+  color: #24395c;
+  font-family: 'Architekt';
+  font-size: 28px;
+  font-weight: 400;
+}
 .light-bigest-sandia {
   color: #c33043;
+  font-family: 'Architekt';
+  font-size: 44px;
+}
+.light-bigest-black {
+  color: black;
+  font-family: 'Architekt';
+  font-size: 44px;
+}
+.light-bigest-white {
+  color: #f3f3f2;
+  font-family: 'Architekt';
+  font-size: 44px;
+}
+.light-bigest-green {
+  color: #03c74f;
   font-family: 'Architekt';
   font-size: 44px;
 }
@@ -106,6 +128,16 @@ p.black {
   font-family: 'Architekt';
   font-size: 32px;
 }
+.light-giant-wine {
+  color: #850227;
+  font-family: 'Architekt';
+  font-size: 62px;
+}
+.light-giant-green {
+  color: #03c74f;
+  font-family: 'Architekt';
+  font-size: 62px;
+}
 .big-white {
   color: #f3f3f2;
   font-family: 'Allgemeine';
@@ -113,6 +145,11 @@ p.black {
 }
 .big-sandia {
   color: #c33043;
+  font-family: 'Allgemeine';
+  font-size: 32px;
+}
+.big-black {
+  color: black;
   font-family: 'Allgemeine';
   font-size: 32px;
 }
@@ -126,6 +163,11 @@ p.black {
   font-family: 'Allgemeine';
   font-size: 48px;
 }
+.bigest-black {
+  color: black;
+  font-family: 'Allgemeine';
+  font-size: 48px;
+}
 .giant-sandia {
   color: #c33043;
   font-family: 'Allgemeine';
@@ -133,6 +175,16 @@ p.black {
 }
 .giant-white {
   color: #f3f3f2;
+  font-family: 'Allgemeine';
+  font-size: 68px;
+}
+.giant-gold {
+  color: #ff7200;
+  font-family: 'Allgemeine';
+  font-size: 68px;
+}
+.giant-wine {
+  color: #850227;
   font-family: 'Allgemeine';
   font-size: 68px;
 }
@@ -184,6 +236,25 @@ section.fondo-gris {
 /* ==========================================================================
    HOME
    ========================================================================== */
+#reparamos-inicio {
+  background-size: auto;
+}
+#reparamos-inicio p {
+  line-height: 130%;
+}
+#reparamos-inicio p.blue {
+  text-align: right;
+}
+#reparamos-inicio h2 {
+  line-height: 185%;
+}
+#reparamos-inicio h1 {
+  margin-top: -120px;
+}
+#reparamos-inicio div.contenedor-center {
+  width: 80%;
+  height: 100px;
+}
 #reparamos-inicio .col {
   padding-top: 160px;
   padding-bottom: 100px;
@@ -194,10 +265,6 @@ section.fondo-gris {
 #reparamos-inicio #reparamos1 {
   padding-left: 65px;
   padding-right: 25px;
-  background: linear-gradient(to bottom, #f4e181, #d27943);
-}
-#reparamos-inicio #reparamos2 {
-  background-color: #ebebeb;
 }
 #reparamos-inicio #reparamos2 img#all-devices {
   position: relative;
@@ -219,14 +286,15 @@ section.fondo-gris {
 #who div.contenedor-center .btn-yellow {
   margin-top: 55px;
 }
-#brindamos .contenedor-center {
-  padding-top: 85px;
+#brindamos {
+  padding-top: 160px;
+  padding-bottom: 185px;
 }
-#brindamos .flex {
-  margin-top: 70px;
+#brindamos .flex #col-servicio {
+  width: 48%;
 }
-#brindamos .flex .col {
-  width: 23%;
+#brindamos .flex #col-logos {
+  width: 52%;
 }
 #brindamos img#bro {
   position: relative;
@@ -732,4 +800,346 @@ section.fondo-gris {
 }
 #footer .flex .col#fsmaller {
   padding-left: 70px;
+}
+@media screen and (max-width: 650px) {
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flex.center-h {
+    justify-content: center;
+    text-align: center;
+  }
+  .flex.nowrap {
+    flex-wrap: nowrap;
+  }
+  .flex .col {
+    width: 50%;
+    padding: 0px 10px;
+    box-sizing: border-box;
+  }
+  .flex .col.align-self-center {
+    align-self: center;
+  }
+  .flex .col.align-self-end {
+    align-self: flex-end;
+  }
+  ul {
+    color: black;
+    font-family: 'Architekt';
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  li {
+    color: black;
+    font-family: 'Architekt';
+    padding-left: 1em;
+    text-indent: -0.7em;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 115%;
+  }
+  ul li::before {
+    content: "• ";
+    color: #c33043;
+  }
+  p {
+    line-height: 90%;
+  }
+  p.white {
+    font-size: 10px;
+  }
+  p.black {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  p.blue {
+    font-size: 28px;
+    font-weight: 400;
+  }
+  .light-bigest-sandia {
+    font-size: 20px;
+  }
+  .light-bigest-black {
+    font-size: 20px;
+  }
+  .light-bigest-white {
+    font-size: 20px;
+  }
+  .light-bigest-green {
+    font-size: 20px;
+  }
+  .light-big-sandia {
+    font-size: 18px;
+  }
+  .light-big-white {
+    font-size: 18px;
+  }
+  .light-big-black {
+    font-size: 18px;
+  }
+  .light-mid-black {
+    font-size: 12px;
+  }
+  .light-mid-sandia {
+    font-size: 12px;
+  }
+  .light-mid-white {
+    font-size: 12px;
+  }
+  .light-giant-wine {
+    font-size: 18px;
+  }
+  .light-giant-green {
+    font-size: 18px;
+  }
+  .big-white {
+    font-size: 12px;
+  }
+  .big-sandia {
+    font-size: 12px;
+  }
+  .big-black {
+    font-size: 12px;
+  }
+  .bigest-white {
+    font-size: 22px;
+  }
+  .bigest-sandia {
+    font-size: 22px;
+  }
+  .bigest-black {
+    font-size: 22px;
+  }
+  .giant-sandia {
+    font-size: 25px;
+  }
+  .giant-white {
+    font-size: 25px;
+  }
+  .giant-gold {
+    font-size: 25px;
+  }
+  .giant-wine {
+    font-size: 25px;
+  }
+  .btn-yellow {
+    background-color: #fae008;
+    font-family: 'Allgemeine';
+    color: #c33043;
+    font-size: 12px;
+    border: 0;
+    padding: 2px 12px;
+  }
+  .btn-sandia {
+    background-color: #c33043;
+    font-family: 'Allgemeine';
+    color: #f3f3f2;
+    font-size: 12px;
+    border: 0;
+    padding: 2px 12px;
+  }
+  .btn-dead-yellow {
+    background-color: #e3b45b;
+    font-family: 'Allgemeine';
+    color: #c33043;
+    font-size: 12px;
+    border: 0;
+    padding: 2px 12px;
+  }
+  div.contenedor-center {
+    margin: auto;
+    width: 70%;
+    padding: 2px;
+    text-align: center;
+  }
+  #who {
+    background: url(../img/home/fondo-sandia-piramide.jpg) no-repeat center;
+    background-size: cover;
+  }
+  #who h2 {
+    background: url(../img/home/modern-devices.png) center 40px no-repeat;
+    background-size: 90%;
+    padding-top: 80px;
+    padding-bottom: 15px;
+  }
+  #who .btn-pad {
+    padding-bottom: 15px;
+  }
+  #who div.contenedor-center {
+    padding-bottom: 40px;
+  }
+  #brindamos {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  #brindamos .flex #col-servicio {
+    width: 100%;
+  }
+  #brindamos .flex #col-servicio .light-big-black {
+    line-height: -10px;
+  }
+  #brindamos .flex #col-logos {
+    width: 100%;
+  }
+  #brindamos .flex #col-logos img {
+    width: 100%;
+  }
+  #beneficios .flex {
+    padding-top: 25px;
+    padding-bottom: 15px;
+  }
+  #beneficios .flex h2 {
+    padding: 10px 0px 0px 40px;
+    line-height: 90%;
+  }
+  #beneficios .flex .btn-pad {
+    padding-bottom: 0px;
+  }
+  #beneficios .flex .col {
+    width: 100%;
+  }
+  #contacto .flex {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #contacto .flex #icons {
+    width: 0%;
+  }
+  #contacto .flex #icons img {
+    padding-bottom: 0px;
+  }
+  #contacto .flex .col {
+    width: 100%;
+  }
+  #contacto .flex .contacto p,
+  #contacto .flex .contacto h2 {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+  }
+  #contacto .flex h2 {
+    padding: 10px 0px 0px 10px;
+    line-height: 130%;
+  }
+  #contacto .flex h2 .giant-white {
+    font-size: 40px;
+  }
+  #contacto .flex .btn-pad {
+    padding-bottom: 5px;
+  }
+  #reparamos-inicio p {
+    line-height: 90%;
+  }
+  #reparamos-inicio p.white {
+    font-size: 30px;
+  }
+  #reparamos-inicio p.black {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  #reparamos-inicio p.blue {
+    font-size: 28px;
+    font-weight: 400;
+  }
+  #reparamos-inicio .light-bigest-sandia {
+    font-size: 44px;
+  }
+  #reparamos-inicio .light-bigest-black {
+    font-size: 44px;
+  }
+  #reparamos-inicio .light-bigest-white {
+    font-size: 44px;
+  }
+  #reparamos-inicio .light-bigest-green {
+    font-size: 44px;
+  }
+  #reparamos-inicio .light-big-sandia {
+    font-size: 38px;
+  }
+  #reparamos-inicio .light-big-white {
+    font-size: 38px;
+  }
+  #reparamos-inicio .light-big-black {
+    font-size: 38px;
+  }
+  #reparamos-inicio .light-mid-black {
+    font-size: 32px;
+  }
+  #reparamos-inicio .light-mid-sandia {
+    font-size: 32px;
+  }
+  #reparamos-inicio .light-mid-white {
+    font-size: 32px;
+  }
+  #reparamos-inicio .light-giant-wine {
+    font-size: 62px;
+  }
+  #reparamos-inicio .light-giant-green {
+    font-size: 62px;
+  }
+  #reparamos-inicio .big-white {
+    font-size: 32px;
+  }
+  #reparamos-inicio .big-sandia {
+    font-size: 32px;
+  }
+  #reparamos-inicio .big-black {
+    font-size: 32px;
+  }
+  #reparamos-inicio .bigest-white {
+    font-size: 48px;
+  }
+  #reparamos-inicio .bigest-sandia {
+    font-size: 48px;
+  }
+  #reparamos-inicio .bigest-black {
+    font-size: 48px;
+  }
+  #reparamos-inicio .giant-sandia {
+    font-size: 68px;
+  }
+  #reparamos-inicio .giant-white {
+    font-size: 68px;
+  }
+  #reparamos-inicio .giant-gold {
+    font-size: 68px;
+  }
+  #reparamos-inicio .giant-wine {
+    font-size: 68px;
+  }
+  #reparamos-inicio p {
+    line-height: 130%;
+  }
+  #reparamos-inicio p.blue {
+    text-align: right;
+  }
+  #reparamos-inicio h2 {
+    line-height: 185%;
+  }
+  #reparamos-inicio h1 {
+    margin-top: -120px;
+  }
+  #reparamos-inicio div.contenedor-center {
+    width: 80%;
+    height: 100px;
+  }
+  #reparamos-inicio .col {
+    padding-top: 160px;
+    padding-bottom: 100px;
+  }
+  #reparamos-inicio .col p {
+    padding-bottom: 20px;
+  }
+  #reparamos-inicio #reparamos1 {
+    padding-left: 65px;
+    padding-right: 25px;
+  }
+  #reparamos-inicio #reparamos2 img#all-devices {
+    position: relative;
+    left: -44px;
+  }
 }
