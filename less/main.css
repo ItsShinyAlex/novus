@@ -56,7 +56,10 @@ ul li::before {
   color: #c33043;
 }
 .shadow {
-  text-shadow: 1px 1px 8px #000000;
+  text-shadow: 1px 1px 20px #000000;
+}
+.white-shadow {
+  text-shadow: 0 0 35px #FFFFFF;
 }
 p {
   line-height: 90%;
@@ -223,7 +226,7 @@ div.flex .gradient {
   padding-bottom: 100px;
   padding-left: 80px;
   padding-right: 55px;
-  background: linear-gradient(to bottom, #f4e181, #d27943);
+  background: linear-gradient(to bottom, #f4e181, #c0602d);
 }
 div.flex .gradient h1 {
   line-height: 160%;
@@ -372,7 +375,10 @@ section.fondo-gris {
 }
 #centro-autorizado div.flex .col h2 {
   padding-top: 30%;
-  text-align: left;
+}
+#centro-autorizado div.flex .col .contenedor-center {
+  width: 75%;
+  text-align: center;
 }
 #centro-autorizado #melon {
   background: url(../img/porque/circulo-melon.png) center top no-repeat;
@@ -382,8 +388,15 @@ section.fondo-gris {
   padding-top: 85px;
   text-align: center;
 }
+#centro-autorizado #melon h2 span.light-mid-white {
+  font-size: 27px;
+}
 #centro-autorizado #melon p {
   padding-top: 25%;
+}
+#centro-autorizado #melon-mitad {
+  background: url(../img/porque/circulo-mitad.png) center 40px no-repeat;
+  background-size: 100%;
 }
 #ventajas {
   background-color: #ebebeb;
@@ -432,6 +445,9 @@ section.fondo-gris {
   position: relative;
   left: -90px;
 }
+#logros .contenedor-center {
+  width: 60%;
+}
 #logros h2 {
   padding-top: 160px;
   padding-bottom: 60px;
@@ -446,9 +462,10 @@ section.fondo-gris {
 #logros .flex .col {
   text-align: left;
 }
-#logros .flex .col #walmart {
-  padding-top: 130px;
-  padding-bottom: 50px;
+#logros .flex .col img#walmart {
+  width: 66%;
+  padding-top: 20px;
+  padding-bottom: 0px;
 }
 #logros .flex p {
   padding-top: 50px;
@@ -460,6 +477,9 @@ section.fondo-gris {
 /* ==========================================================================
    SERVICIOS
    ========================================================================== */
+p.garantia {
+  padding-bottom: 80px;
+}
 .herramientas {
   background: url(../img/servicios/fondo-col2-herramientas-sandia.jpg) center no-repeat;
   background-size: cover;
@@ -509,7 +529,18 @@ section.fondo-gris {
   padding: 0;
 }
 #reparamos .flex .col#corchetes {
-  background: url(../img/servicios/corchetes-amarillos.png) center 275px no-repeat, url(../img/servicios/fondo-col2-herramientas-sandia.jpg) no-repeat center;
+  background: url(../img/servicios/corchetes-amarillos.png) center 210px no-repeat, url(../img/servicios/fondo-col2-herramientas-sandia.jpg) no-repeat center;
+}
+#reparamos .flex .col#corchetes h2 {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+#reparamos .flex .col#corchetes .light-mid-white {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#reparamos .flex .col#corchetes p.garantia {
+  padding-bottom: 80px;
 }
 #reparamos .flex .col#tecnico {
   background: url(../img/servicios/fondo-col-tecnico.jpg) no-repeat center;
@@ -571,7 +602,10 @@ section.fondo-gris {
 #moviles p {
   padding: 0px 30px;
   line-height: 110%;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+}
+#moviles p.garantia {
+  padding-bottom: 80px;
 }
 #moviles h2 {
   line-height: 150%;
@@ -582,6 +616,9 @@ section.fondo-gris {
 }
 #proyectores .herramientas p.light-mid-white {
   padding: 0;
+}
+#proyectores .herramientas p.garantia {
+  padding-bottom: 80px;
 }
 #proyectores .flex-btn {
   padding-bottom: 100px;
@@ -956,6 +993,146 @@ section.fondo-gris {
     padding: 2px;
     text-align: center;
   }
+  /* ==========================================================================
+   PORQUÉ ELEGIRNOS
+   ========================================================================== */
+  #porque-elegirnos {
+    background: url(../img/porque/fondo-borrosos.jpg) center no-repeat;
+    background-size: cover;
+  }
+  #porque-elegirnos div.contenedor-center {
+    padding-top: 140px;
+    padding-bottom: 100px;
+  }
+  #centro-autorizado {
+    background: url(../img/porque/fondo-sandia-dosPiramides.jpg) center no-repeat;
+    background-size: cover;
+  }
+  #centro-autorizado div.flex {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  #centro-autorizado div.flex .col {
+    padding: 0px 8px;
+    width: 100%;
+  }
+  #centro-autorizado div.flex .col h2 {
+    padding-top: 30%;
+  }
+  #centro-autorizado div.flex .col .contenedor-center {
+    width: 75%;
+    text-align: center;
+  }
+  #centro-autorizado div.flex .col img {
+    width: 100%;
+  }
+  #centro-autorizado #melon {
+    background: url(../img/porque/circulo-melon.png) center top no-repeat;
+    background-size: 70%;
+  }
+  #centro-autorizado #melon h2 {
+    line-height: 60%;
+    padding-top: 30px;
+    text-align: center;
+  }
+  #centro-autorizado #melon h2 span.light-mid-white {
+    font-size: 14px;
+  }
+  #centro-autorizado #melon p {
+    padding-top: 25%;
+  }
+  #centro-autorizado #melon-mitad {
+    background: url(../img/porque/circulo-mitad.png) center 55px no-repeat;
+    background-size: 100%;
+  }
+  #ventajas {
+    background-color: #ebebeb;
+  }
+  #ventajas .flex {
+    padding: 40px 3px 10px 3px;
+  }
+  #ventajas .flex .col {
+    width: 100%;
+    text-align: center;
+  }
+  #ventajas .flex .col img {
+    width: 80%;
+  }
+  #ventajas .flex .col h2 {
+    padding-top: 10px;
+  }
+  #ventajas .flex .col p {
+    padding-top: 0px;
+  }
+  /* ==========================================================================
+   QUIENES SOMOS? (ABOUT)
+   ========================================================================== */
+  div.flex .gradient {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  div.flex .gradient h1 {
+    line-height: 80%;
+  }
+  #whoweare .col {
+    width: 100%;
+  }
+  #mision-vision img#c1-dev {
+    margin-top: 18px;
+    width: 100%;
+  }
+  #mision-vision img#c2-pc {
+    width: 80%;
+  }
+  #mision-vision .flex {
+    padding: 12px 3px 10px 3px;
+  }
+  #mision-vision .flex p {
+    line-height: 80%;
+  }
+  #mision-vision .flex #right {
+    padding-right: 6px;
+    text-align: right;
+  }
+  #mision-vision .flex #right img {
+    position: relative;
+    left: -9px;
+  }
+  #logros .contenedor-center {
+    width: 95%;
+  }
+  #logros h2 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+  #logros img {
+    width: 100%;
+    padding-top: 30px;
+  }
+  #logros .flex {
+    padding-bottom: 20px;
+  }
+  #logros .flex .col {
+    text-align: left;
+  }
+  #logros .flex .col img#walmart {
+    width: 66%;
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  #logros .flex p {
+    padding-top: 50px;
+  }
+  #logros #col2-logros img {
+    padding-left: 10px;
+    width: 80%;
+  }
+  /* ==========================================================================
+   HOME
+   ========================================================================== */
   #who {
     background: url(../img/home/fondo-sandia-piramide.jpg) no-repeat center;
     background-size: cover;

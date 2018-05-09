@@ -8,7 +8,7 @@
         <div class="flex">
             <div class="col"></div>
             <div class="col">
-                <h1 class="shadow">
+                <h1 class="white-shadow">
                     <span class="bigest-sandia">Novus</span><br>
                     <span class="giant-sandia">Servicios</span>
                 </h1>
@@ -29,8 +29,11 @@
                 Computadoras, impresoras y accesorios en garantía en nuestra oficina
             </p>
             <p class="white">
-                Reparamos tu equipos de cómputo, servidor, escaner, multifuncional, rotulador electrónico, proyector, plotter, no breaks, accesorios, tableta o pantalla.
+                Reparamos tus equipos de cómputo, servidores, escáners, multifuncionales, rotuladores electrónicos, proyectores, plotters, no-breaks, accesorios, tabletas o pantallas.
             </p>
+            
+            <p class="white garantia">En garantía, por cargo o extra cobertura.</p>
+            
             <div class="flex-btn">
                 <div class="col">
                     <a class="btn-dead-yellow">¡Contáctanos!</a>
@@ -54,7 +57,8 @@
                         <span class="light-mid-white">con repuestos</span><br>
                     </h2>
                     
-                    <p class="white">Reparamos tu Iphone, Ipad, Ipod, Macbook, Imac, Mac Pro, Apple Watchd Beats.  En garantía o por cargo</p>
+                    <p class="white">paramos tu Iphone, Ipad, Ipod, Macbook, Imac, Mac Pro, Apple Watch o Beats.
+                    En garantía, por cargo o extra cobertura.</p>
                     <br>
                     <div class="flex-btn">
                         <div class="col">
@@ -80,7 +84,7 @@
                 Brother y Singer en</span><br>
                 <span class="bigest-white">Garantía</span>
             </h2>        
-            <p class="white">Reparamos tus equipos de costura con refacciones originales.  En garantía o con extracoberturas AIG (garantía extendida Wall Mart, Sam´s, Aurrera, Chedarui Best Buy). </p>
+            <p class="white">Reparamos tus equipos de costura con refacciones originales. En garantía, por cargo o extra cobertura.</p>
             
             <div class="flex-btn">
                 <div class="col">
@@ -105,13 +109,14 @@
             <div class="col">              
                 <div class="sqrt-sandia">    
                     <h2>
-                        <span class="light-big-white">Computadoras, impresoras</span><br>
-                        <span class="bigest-white">Móviles </span><br>
-                        <span class="light-mid-white">y accesorios por cargos</span>
+                        <span class="light-big-white">Computadoras, impresoras,</span><br>
+                        <span class="bigest-white">Móviles y accesorios </span><br>
                     </h2>
                     
                     <p class="white">Reparamos equipos de cómputo,  impresoras, multifuncionales, escaners, plotters, servidores, portátiles, tabletas,no breaks, reguladores, máquinas de escribir, rotuladores electrónicos, proyectores, pantallas y accesorios.  
                     </p>
+                    
+                    <p class="white garantia">En garantía, por cargo o extra cobertura.</p>
                     
                         <div class="flex-btn">
                             <div class="col">
@@ -137,13 +142,13 @@
                 <span class="light-big-white">Televisores, bocinas y</span><br>
                 <span class="bigest-white shadow">proyectores</span>
             </h2>
-            <p class="light-mid-white">
-                por cargos
-            </p>
             <p class="white">
                 Reparamos tus equipos de TV, sistemas de entretenimiento, reproductores Bluray, bocinas,  DVD, proyectores y pantallas de las marcas Sony, Epson,  Samsung, LG, Sharp.
 
             </p>
+            
+            <p class="white garantia">En garantía, por cargo o extra cobertura.</p>
+            
             <div class="flex-btn">
                 <div class="col">
                     <a class="btn-dead-yellow">¡Contáctanos!</a>
@@ -169,7 +174,7 @@
                     <li> Libera tu equipo de contraseñas.</li>
                     <li>Presenta tu equipo con todos sus accesorios.</li>
                     <li> Si está en Garantía trae una copia del documento de compra.</li>
-                    <li>Si tienes una extracobertura presénta la póliza AIG Garanplus.</li>
+                    <li>Si tienes una extracobertura, presenta la póliza.</li>
                 </ol>       
             </div>
             

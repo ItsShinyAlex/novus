@@ -102,18 +102,22 @@
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/002-phone-call.svg" alt="teléfono"> 
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/001-pin.svg" alt="ubicación">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/003-clock.svg" alt="horario reloj">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/mail.png" alt="Correo electrónico">
         </div>
         <div class="col contacto">        
-            <p>TELÉFONO<br>
+            <p><b>TELÉFONO</b><br>
             55 5589 8928</p>
             
-            <p>Calzada de Tlalpan<br>
-            local 109 CDMX</p>
+            <p><b>Calzada de Tlalpan<br>
+            local 109 CDMX</b></p>
   
-            <p class="btn-pad">HORARIO DE ATENCIÓN<br>Lunes a Viernes de<br>
+            <p class="btn-pad"><b>HORARIO DE ATENCIÓN</b><br>Lunes a Viernes de<br>
                 9:00 am a 6 pm<br> 
                 Sábado de<br> 
                 9:00 am a 1:00 pm</p>
+                
+            <p><b>CORREO</b><br>
+            garantias@novussupply.com</p>    
             <a class="btn-yellow">¿Cómo llegar?</a>
         </div>
     </div>

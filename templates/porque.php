@@ -16,19 +16,23 @@
         <div class="flex">
             <div id="melon" class="col">
                 <h2>
-                    <span class="light-mid-white">Somos Centro </span><br>
-                    <span class="light-big-white">Autorizado de las</span><br>
-                    <span class="bigest-white shadow">mejores marcas</span>
+                    <span class="light-mid-white">Somos Centro Autorizado</span><br>
+                    <span class="light-big-white">y/o centro de</span><br>
+                    <span class="light-big-white">Reparación de las</span><br>
+                    <span class="bigest-white shadow">siguientes marcas</span>
                 </h2>
      
                 <p class="white">Estamos autorizados por  Dell, Apple, Dell, View Sonic, Samsung, Epson, Tripp Lite, Brother, Singer, entre otras. Para ofrecerte productos, accesorios, refacciones originales y servicio técnico garantizado. </p>
             </div>
             <div class="col">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/porque/pc-dell.png" alt="PC dell">
-                <h2>
-                    <span class="light-big-white">Nos adaptamos a tus</span>
-                    <span class="bigest-white shadow">necesidades</span>                 
-                </h2>
+                <div id="melon-mitad" class="contenedor-center">
+                    <h2>
+                        <span class="light-mid-white">Nos adaptamos a tus</span>
+                        <span class="bigest-white shadow">Necesidades</span>                 
+                    </h2>
+                </div>
+                
                     <p class="white">Te atendemos personalmente para dar la mejor respuesta a tus necesidades de computación, repuestos y consumibles. Te asesoramos sin costo adicional. </p>
             </div>
         </div>

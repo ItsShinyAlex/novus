@@ -54,7 +54,7 @@
             <div class="col">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/logros1-tablet.png" alt="tablet">
                 <p class="black">Nuestro personal es capacitado y  certificado por las marcas más reconocidas del sector tecnológico.</p>
-                <img id="walmart" src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/logros3-walmart.png" alt="Walmart">    
+                <img id="walmart" src="<?php echo get_stylesheet_directory_uri(); ?>/img/about/garantia.png" alt="Walmart">    
                 <p class="black">Somos proveedores de empresas como UAEM, IMSS, ISSSTE, AIG SEGUROS y UNAM, entre otras.</p>
             </div>
             <div id="col2-logros" class="col">

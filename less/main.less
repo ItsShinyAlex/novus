@@ -99,7 +99,11 @@ ul li::before {
 
 
 .shadow{
-    text-shadow: 1px 1px 8px #000000;
+    text-shadow: 1px 1px 20px #000000;
+}
+
+.white-shadow{
+    text-shadow: 0 0 35px #FFFFFF;
 }
 
 p{
@@ -304,7 +308,7 @@ div.flex .gradient{
         padding-bottom: 100px;
         padding-left: 80px;
         padding-right: 55px;
-        background: linear-gradient(to bottom, #f4e181, #d27943);
+        background: linear-gradient(to bottom, #f4e181, #c0602d);
         //background-size: cover;
         h1{
             line-height: 160%;
@@ -507,8 +511,11 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
             padding: 0px 80px;
             h2{
                 padding-top: 30%;
-                text-align: left;
                     
+            }
+            .contenedor-center{
+                width: 75%;
+                text-align: center;
             }
         }
     }
@@ -519,10 +526,18 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
         h2{
             padding-top: 85px;
             text-align: center;
+            span.light-mid-white{
+                font-size: 27px;
+            }
         }
         p{
             padding-top: 25%;
         }
+    }
+    
+    #melon-mitad{
+        background: url(../img/porque/circulo-mitad.png) center 40px no-repeat;
+        background-size: 100%;
     }
 }
 
@@ -591,6 +606,10 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
 }
 
 #logros{
+    
+    .contenedor-center{
+        width: 60%;
+    }
     h2{
         padding-top: 160px;
         padding-bottom: 60px;
@@ -603,9 +622,10 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
         padding-bottom: 125px;
         .col{
             text-align: left; 
-            #walmart{
-                padding-top: 130px;
-                padding-bottom: 50px;
+            img#walmart{
+                width: 66%;
+                padding-top: 20px;
+                padding-bottom: 0px;
             }
             
         }
@@ -627,7 +647,9 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
    SERVICIOS
    ========================================================================== */
 
-
+p.garantia{
+    padding-bottom: 80px;
+}
 
 .herramientas{
     background: url(../img/servicios/fondo-col2-herramientas-sandia.jpg) center no-repeat;
@@ -692,7 +714,18 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
            .col{
             padding: 0;
             &#corchetes{
-                 background: url(../img/servicios/corchetes-amarillos.png) center 275px no-repeat, url(../img/servicios/fondo-col2-herramientas-sandia.jpg) no-repeat center;
+                 background: url(../img/servicios/corchetes-amarillos.png) center 210px no-repeat, url(../img/servicios/fondo-col2-herramientas-sandia.jpg) no-repeat center;
+                h2{
+                    padding-top: 80px;
+                    padding-bottom: 20px;
+                }
+                .light-mid-white{
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+                p.garantia{
+                    padding-bottom: 80px;
+                }
              }
             
                &#tecnico{
@@ -777,8 +810,13 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
     p{
         padding: 0px 30px;
         line-height: 110%;
-        padding-bottom: 30px;
+        padding-bottom: 10px;
     }
+    
+    p.garantia{
+        padding-bottom: 80px;
+    }
+    
     h2{
         line-height: 150%
     }
@@ -792,6 +830,9 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
     .herramientas{
         p.light-mid-white{
         padding: 0;
+        }
+        p.garantia{
+            padding-bottom: 80px;
         }
     }
      .flex-btn{
