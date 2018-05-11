@@ -27,15 +27,29 @@ $is_transparent = (isset($view_params['is_transparent'])) ? ($view_params['is_tr
                 <div class="mk-header-inner">
                     
                     <!-- ESTE ES EL CONTENEDOR DEL MENÚ -->
-                      
+                     <section id="header">
                        <div class="mk-header-nav-container menu-hover-style-<?php echo esc_attr( $mk_options['main_nav_hover'] ); ?>" <?php echo get_schema_markup('nav'); ?>>
                         <div class="mk-classic-nav-bg"></div>
-                        <div class="mk-classic-menu-wrapper">
-                            <?php
+                        <div class="mk-classic-menu-wrapper flex">
+                           <div id="col-menu" class="col">
+                                <?php
                                 /*Función que muestra el menú*/
                                 mk_get_header_view('master', 'main-nav');
                                 
                                 /*Aqui podrias agregar el html para mostrar revistar status y redes sociales*/
+                            ?>
+                           </div>
+                           <div id="col-btn" class="col">
+                               <a class="btn-dead-yellow" href="#">REVISA EL STATUS DE TU ORDEN</a>
+                           </div>
+                           <div class="col">
+                               <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/head-face.png" alt="face"></a>
+                           </div>
+                           <div class="col">
+                               <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/head-gmail.png" alt="gmail+"> </a> 
+                           </div>
+                               
+                            <?php    
                             
                                 if ( $mk_options['header_search_location'] === 'beside_nav' || $mk_options['header_search_location'] === 'fullscreen_search' ) { 
                                     mk_get_header_view( 'global', 'nav-side-search', ['header_style' => 2] );
@@ -47,6 +61,7 @@ $is_transparent = (isset($view_params['is_transparent'])) ? ($view_params['is_tr
                             ?>
                         </div>
                     </div>
+                    </section> 
                     
                     <!--ESTE ES LA PARTE EN DONDE APARECE EL LOGO -->
                     <div class="mk-header-bg <?php echo mk_get_bg_cover_class($mk_options['header_size']); ?>"></div>

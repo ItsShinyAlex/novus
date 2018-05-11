@@ -36,12 +36,7 @@
     }
 
     ul {
-      color: black;
-      font-family: 'Architekt';     
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      font-size: 24px;
+      font-size: 16px;
       font-weight: 600;
 
     }
@@ -49,11 +44,11 @@
     li {
       color: black;
       font-family: 'Architekt';
-      padding-left: 1em; 
+      padding-left: 10px; 
       text-indent: -.7em;
-      font-size: 24px;
+      font-size: 12px;
       font-weight: 600; 
-      line-height: 115%;    
+      line-height: 100%;    
     }
 
 
@@ -240,7 +235,7 @@
 div.contenedor-center{
     margin: auto;
     width: 70%;
-    padding: 2px; 
+    padding: 0px; 
     text-align: center;
 }
     
@@ -421,6 +416,455 @@ div.flex .gradient{
         } 
     }
 }
+    
+/* ==========================================================================
+   SERVICIOS
+   ========================================================================== */
+
+p.garantia{
+    padding-bottom: 15px;
+}
+
+.herramientas{
+    background: url(../img/servicios/fondo-col2-herramientas-sandia.jpg) center no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    padding: 0px 3px;
+    h2{
+        line-height: 80%;
+        padding-top: 20px;
+    }
+    p.light-mid-white{
+        padding: 5px 10px;
+    }
+    p{
+        line-height: 70%;
+        padding: 0px 7px 0px 7px;
+    }
+    
+    .col{
+        margin-bottom: 10px;
+    }
+    
+   
+
+    
+}
+
+.flex-btn{    
+    padding-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .col {
+        width: 100%;    
+        padding: 0px 1px;
+        box-sizing: border-box;
+        
+        .btn-yellow{
+            font-size: 10px;
+            padding: 2px 10px;
+
+        }
+
+        .btn-sandia{
+            font-size: 10px;
+            padding: 2px 10px;
+
+        }
+
+        .btn-dead-yellow{
+            font-size: 10px;
+            padding: 2px 10px;
+
+        }
+        
+        &.align-self-center {
+            align-self: center;
+        }
+        &.align-self-end {
+            align-self: flex-end;
+        }
+    }
+}
+
+#servicios{
+    background: url(../img/servicios/fondo-servicios-ethernet.jpg) center no-repeat;
+    background-size: cover;
+    text-align: center;
+    .flex{
+        h1{
+            padding: 30px 0px 40px 0px; 
+            line-height: 70%;
+        }
+        .col{
+            padding: 0px;
+        }
+    }
+    
+
+}
+
+#reparamos{
+  
+        .flex
+        {
+           
+           .col{
+            width: 100%;
+            padding: 0;
+            &#corchetes{
+                h2{
+                    padding-top: 50px;
+                    padding-bottom: 15px;
+                }
+                .light-mid-white{
+                    padding-top: 7px;
+                    padding-bottom: 7px;
+                }
+                p.garantia{
+                    padding-bottom: 5px;
+                }
+             }
+            
+               &#tecnico{
+                   background: url(../img/servicios/fondo-col-tecnico.jpg) no-repeat center;
+               }
+
+            } 
+        }
+       
+}
+
+#dispositivos{
+    .sqrt-dead-yellow{
+        margin: 40px 0px 50px 5px;
+        padding: 20px 3px;
+        text-align: center;
+        background-color: @yellow-dead-background;
+    }
+    
+    background: url(../img/servicios/fondo-white-devices-shirt.jpg) center no-repeat;
+    background-size: cover;
+    
+    .flex-btn{
+        .col{
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+     }
+    
+}
+
+#garantia{
+    background-color: @naranja-fondo;
+    #singer{
+        background: url(../img/servicios/fondo-coser.jpg) center no-repeat;
+        background-size: cover;
+    }
+    .flex
+    {
+        .col{
+            text-align: center;
+            padding: 30px 0px 20px 0px;
+            h2{
+                line-height: 65%;
+            }
+            p{
+                line-height: 90%;
+                padding: 0px 10px 5px 10px;
+            }
+            .flex-btn{
+                .col{
+                    width: 100%;
+                    padding: 0;
+                    margin: 0;
+                 }
+           }
+            
+        }
+    }
+}
+
+#moviles{
+    .sqrt-sandia{
+        margin: 40px 0px 45px 0px;
+        padding: 15px 0px;
+
+    }
+
+    
+    .col{
+        padding-left: 0;
+        padding-right: 3px;
+    }
+    
+    .flex-btn{
+        .col{
+            width: 100%;
+        }
+     }
+    
+    p{
+        padding: 0px 3px;
+        line-height: 110%;
+        padding-bottom: 10px;
+    }
+    
+    p.garantia{
+        padding-bottom: 20px;
+    }
+    
+    h2{
+        line-height: 70%
+    }
+}
+
+#proyectores{
+
+    .herramientas{
+        p.light-mid-white{
+        padding: 0;
+        }
+        p.garantia{
+            padding-bottom: 20px;
+        }
+    }
+     .flex-btn{
+         padding-bottom: 30px;
+        .col{
+            width: 100%;
+
+            
+        }
+    }
+
+}
+
+#que-como{
+    .center{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    h2{
+        line-height: 80%;
+    }
+    ul{
+        padding-bottom: 20px;
+    }
+    img{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    .flex{
+        padding: 30px 0px 15px 0px;
+        .col{
+            padding: 0px 8px;
+            width: 100%;
+            text-align: left;             
+        }     
+        p{
+            padding-top: 10px;
+        }
+    }
+    
+   
+    
+    
+    
+}
+
+#vendemos{
+
+    div.contenedor-center{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    .flex{
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0px 20px 0px;
+        
+        .gray{
+            background-color: @gris-oscuro;
+            
+        }
+        .col{
+            margin: 0px 0px;
+            height: 300px;
+            
+            width: 100%;
+            
+            text-align: center;
+            h3{
+                padding-top: 20px;
+                font-size: 18px;
+            }
+            .light-mid-sandia{
+                font-size: 14px;
+            }
+            p{
+                padding: 3px 5px 0px 5px;
+                line-height: 90%;
+            }
+
+                #iphone{
+                    width: 30%;
+                    position:relative;
+                    left: 0px;
+                    top: 0px;
+                }
+                #mb{
+                    width: 70%;
+                    position:relative;
+                    left: 0px;
+                    top: 45px;  
+                }
+                #tinta
+                {
+                    width: 75%;
+                    left: 0px;
+                    top: 25px;  
+                }
+                
+                
+        }
+
+    }
+    
+     .flex-btn{
+        padding-bottom: 0px;
+        padding-top: 25px;
+        .col{
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+    }
+    
+    #cpu-dell{
+        width: 60%;
+        position:relative;
+        left: 90px;
+        top: 68px;
+    }
+    #impresora{
+        width: 50%;
+        position:relative;
+        left: 10px;
+        top: 195px;  
+    }
+   
+}
+
+    
+#planes{
+     padding-top: 75px;
+    padding-bottom: 25px;
+    .center{
+        text-align: right;
+        padding-left: 3px;
+        padding-right: 2px;
+    }
+    
+   
+    background-color: @gris-oscuro;
+    h2.interlineado{
+        line-height: 80%;
+    }
+    p{
+        line-height: 95%;
+    }
+    .padding-top{
+        padding-top: 63px;
+        padding-bottom: 22px;
+        line-height: 37%;
+    }
+    
+    div.high-padding{
+        padding: 0px 8px 0px 5px;
+        span.giant-sandia{
+            font-size: 20px;
+        }
+    }
+    .flex-btn{
+        padding-bottom: 0px;
+        padding-top: 10px;
+        .col{
+            width: 100%;
+        }
+    }
+}
+
+#soluciones-tec{
+    background-color: @sandia;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    h2{
+        line-height: 100%;
+    }
+    div.contenedor-center{
+        margin: 0;
+        max-width: 1326px;
+        padding-top: 0px;
+        width: 100%;
+    }
+    .flex{
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 2px 20px 2px;
+        
+        img{
+            width: 100%;
+        }
+        .col{
+            margin: 0px;
+            height: 390px;
+            
+            width: 100%;
+            align-content: center;
+            text-align: center;
+            h3{
+                padding-top: 20px;
+                font-size: 20px;
+            }
+            .light-mid-sandia{
+                font-size: 18px;
+            }
+            p{
+                padding: 3px 8px 0px 8px;
+                line-height: 90%;
+            }                         
+        }
+    }
+    
+     .flex-btn{
+        padding-bottom: 0px;
+        padding-top: 0px;
+        .col{
+            width: 45%;
+            padding: 0;
+            margin: 0px 5px;
+        }
+    }
+}
+
+    div.mob-hid{
+        visibility: hidden;
+        clear: both;
+        display: none;
+    }
 
     
 /* ==========================================================================

@@ -838,6 +838,34 @@ p.garantia {
 #footer .flex .col#fsmaller {
   padding-left: 70px;
 }
+#header {
+  background-color: #c33043;
+}
+#header div {
+  background-color: #c33043;
+}
+#header img {
+  margin-top: 15px;
+}
+#header .head-btn {
+  padding-bottom: 0px;
+}
+#header .flex .btn-dead-yellow {
+  border-radius: 8px;
+  font-size: 10px;
+  padding: 8px 5px;
+}
+#header .flex .col {
+  width: 3%;
+  padding: 0px 1px;
+}
+#header .flex #col-menu {
+  width: 70%;
+}
+#header .flex #col-btn {
+  margin-top: 26px;
+  width: 18%;
+}
 @media screen and (max-width: 650px) {
   .flex {
     display: flex;
@@ -862,22 +890,17 @@ p.garantia {
     align-self: flex-end;
   }
   ul {
-    color: black;
-    font-family: 'Architekt';
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 600;
   }
   li {
     color: black;
     font-family: 'Architekt';
-    padding-left: 1em;
+    padding-left: 10px;
     text-indent: -0.7em;
-    font-size: 24px;
+    font-size: 12px;
     font-weight: 600;
-    line-height: 115%;
+    line-height: 100%;
   }
   ul li::before {
     content: "• ";
@@ -990,7 +1013,7 @@ p.garantia {
   div.contenedor-center {
     margin: auto;
     width: 70%;
-    padding: 2px;
+    padding: 0px;
     text-align: center;
   }
   /* ==========================================================================
@@ -1129,6 +1152,352 @@ p.garantia {
   #logros #col2-logros img {
     padding-left: 10px;
     width: 80%;
+  }
+  /* ==========================================================================
+   SERVICIOS
+   ========================================================================== */
+  p.garantia {
+    padding-bottom: 15px;
+  }
+  .herramientas {
+    background: url(../img/servicios/fondo-col2-herramientas-sandia.jpg) center no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    padding: 0px 3px;
+  }
+  .herramientas h2 {
+    line-height: 80%;
+    padding-top: 20px;
+  }
+  .herramientas p.light-mid-white {
+    padding: 5px 10px;
+  }
+  .herramientas p {
+    line-height: 70%;
+    padding: 0px 7px 0px 7px;
+  }
+  .herramientas .col {
+    margin-bottom: 10px;
+  }
+  .flex-btn {
+    padding-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .flex-btn .col {
+    width: 100%;
+    padding: 0px 1px;
+    box-sizing: border-box;
+  }
+  .flex-btn .col .btn-yellow {
+    font-size: 10px;
+    padding: 2px 10px;
+  }
+  .flex-btn .col .btn-sandia {
+    font-size: 10px;
+    padding: 2px 10px;
+  }
+  .flex-btn .col .btn-dead-yellow {
+    font-size: 10px;
+    padding: 2px 10px;
+  }
+  .flex-btn .col.align-self-center {
+    align-self: center;
+  }
+  .flex-btn .col.align-self-end {
+    align-self: flex-end;
+  }
+  #servicios {
+    background: url(../img/servicios/fondo-servicios-ethernet.jpg) center no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  #servicios .flex h1 {
+    padding: 30px 0px 40px 0px;
+    line-height: 70%;
+  }
+  #servicios .flex .col {
+    padding: 0px;
+  }
+  #reparamos .flex .col {
+    width: 100%;
+    padding: 0;
+  }
+  #reparamos .flex .col#corchetes h2 {
+    padding-top: 50px;
+    padding-bottom: 15px;
+  }
+  #reparamos .flex .col#corchetes .light-mid-white {
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  #reparamos .flex .col#corchetes p.garantia {
+    padding-bottom: 5px;
+  }
+  #reparamos .flex .col#tecnico {
+    background: url(../img/servicios/fondo-col-tecnico.jpg) no-repeat center;
+  }
+  #dispositivos {
+    background: url(../img/servicios/fondo-white-devices-shirt.jpg) center no-repeat;
+    background-size: cover;
+  }
+  #dispositivos .sqrt-dead-yellow {
+    margin: 40px 0px 50px 5px;
+    padding: 20px 3px;
+    text-align: center;
+    background-color: #e5ba68;
+  }
+  #dispositivos .flex-btn .col {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  #garantia {
+    background-color: #cf7639;
+  }
+  #garantia #singer {
+    background: url(../img/servicios/fondo-coser.jpg) center no-repeat;
+    background-size: cover;
+  }
+  #garantia .flex .col {
+    text-align: center;
+    padding: 30px 0px 20px 0px;
+  }
+  #garantia .flex .col h2 {
+    line-height: 65%;
+  }
+  #garantia .flex .col p {
+    line-height: 90%;
+    padding: 0px 10px 5px 10px;
+  }
+  #garantia .flex .col .flex-btn .col {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  #moviles .sqrt-sandia {
+    margin: 40px 0px 45px 0px;
+    padding: 15px 0px;
+  }
+  #moviles .col {
+    padding-left: 0;
+    padding-right: 3px;
+  }
+  #moviles .flex-btn .col {
+    width: 100%;
+  }
+  #moviles p {
+    padding: 0px 3px;
+    line-height: 110%;
+    padding-bottom: 10px;
+  }
+  #moviles p.garantia {
+    padding-bottom: 20px;
+  }
+  #moviles h2 {
+    line-height: 70%;
+  }
+  #proyectores .herramientas p.light-mid-white {
+    padding: 0;
+  }
+  #proyectores .herramientas p.garantia {
+    padding-bottom: 20px;
+  }
+  #proyectores .flex-btn {
+    padding-bottom: 30px;
+  }
+  #proyectores .flex-btn .col {
+    width: 100%;
+  }
+  #que-como .center {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  #que-como h2 {
+    line-height: 80%;
+  }
+  #que-como ul {
+    padding-bottom: 20px;
+  }
+  #que-como img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  #que-como .flex {
+    padding: 30px 0px 15px 0px;
+  }
+  #que-como .flex .col {
+    padding: 0px 8px;
+    width: 100%;
+    text-align: left;
+  }
+  #que-como .flex p {
+    padding-top: 10px;
+  }
+  #vendemos div.contenedor-center {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+  #vendemos .flex {
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 20px 0px;
+  }
+  #vendemos .flex .gray {
+    background-color: #ebebeb;
+  }
+  #vendemos .flex .col {
+    margin: 0px 0px;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+  }
+  #vendemos .flex .col h3 {
+    padding-top: 20px;
+    font-size: 18px;
+  }
+  #vendemos .flex .col .light-mid-sandia {
+    font-size: 14px;
+  }
+  #vendemos .flex .col p {
+    padding: 3px 5px 0px 5px;
+    line-height: 90%;
+  }
+  #vendemos .flex .col #iphone {
+    width: 30%;
+    position: relative;
+    left: 0px;
+    top: 0px;
+  }
+  #vendemos .flex .col #mb {
+    width: 70%;
+    position: relative;
+    left: 0px;
+    top: 45px;
+  }
+  #vendemos .flex .col #tinta {
+    width: 75%;
+    left: 0px;
+    top: 25px;
+  }
+  #vendemos .flex-btn {
+    padding-bottom: 0px;
+    padding-top: 25px;
+  }
+  #vendemos .flex-btn .col {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  #vendemos #cpu-dell {
+    width: 60%;
+    position: relative;
+    left: 90px;
+    top: 68px;
+  }
+  #vendemos #impresora {
+    width: 50%;
+    position: relative;
+    left: 10px;
+    top: 195px;
+  }
+  #planes {
+    padding-top: 75px;
+    padding-bottom: 25px;
+    background-color: #ebebeb;
+  }
+  #planes .center {
+    text-align: right;
+    padding-left: 3px;
+    padding-right: 2px;
+  }
+  #planes h2.interlineado {
+    line-height: 80%;
+  }
+  #planes p {
+    line-height: 95%;
+  }
+  #planes .padding-top {
+    padding-top: 63px;
+    padding-bottom: 22px;
+    line-height: 37%;
+  }
+  #planes div.high-padding {
+    padding: 0px 8px 0px 5px;
+  }
+  #planes div.high-padding span.giant-sandia {
+    font-size: 20px;
+  }
+  #planes .flex-btn {
+    padding-bottom: 0px;
+    padding-top: 10px;
+  }
+  #planes .flex-btn .col {
+    width: 100%;
+  }
+  #soluciones-tec {
+    background-color: #c33043;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #soluciones-tec h2 {
+    line-height: 100%;
+  }
+  #soluciones-tec div.contenedor-center {
+    margin: 0;
+    max-width: 1326px;
+    padding-top: 0px;
+    width: 100%;
+  }
+  #soluciones-tec .flex {
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 2px 20px 2px;
+  }
+  #soluciones-tec .flex img {
+    width: 100%;
+  }
+  #soluciones-tec .flex .col {
+    margin: 0px;
+    height: 390px;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+  }
+  #soluciones-tec .flex .col h3 {
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  #soluciones-tec .flex .col .light-mid-sandia {
+    font-size: 18px;
+  }
+  #soluciones-tec .flex .col p {
+    padding: 3px 8px 0px 8px;
+    line-height: 90%;
+  }
+  #soluciones-tec .flex-btn {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+  #soluciones-tec .flex-btn .col {
+    width: 45%;
+    padding: 0;
+    margin: 0px 5px;
+  }
+  div.mob-hid {
+    visibility: hidden;
+    clear: both;
+    display: none;
   }
   /* ==========================================================================
    HOME

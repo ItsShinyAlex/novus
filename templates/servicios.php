@@ -303,10 +303,10 @@
             <div class="col">
                 <a class="btn-dead-yellow">¡Contáctanos!</a>
             </div>    
-            <div class="col">
+            <div class="col mob-hid">
                 <a class="btn-dead-yellow">¡Contáctanos!</a>
             </div>
-            <div class="col">
+            <div class="col mob-hid">
                 <a class="btn-dead-yellow">¡Contáctanos!</a>
             </div>
         </div>
