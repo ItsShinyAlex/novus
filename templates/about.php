@@ -68,6 +68,8 @@
     </div>
 </section>
 
+<script src="./scrollreveal/dist/scrollreveal.min.js"></script>
+
 <?php 
     get_footer();
 ?>

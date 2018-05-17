@@ -36,7 +36,7 @@
             
             <div class="flex-btn">
                 <div class="col">
-                    <a class="btn-dead-yellow">¡Contáctanos!</a>
+                    <a class="btn-dead-yellow">Contáctanos</a>
                 </div>
                 <div class="col">
                     <a class="btn-yellow">¿Cómo llegar?</a>
@@ -62,7 +62,7 @@
                     <br>
                     <div class="flex-btn">
                         <div class="col">
-                            <a class="btn-sandia">¡Contáctanos!</a>
+                            <a class="btn-sandia">Contáctanos</a>
                         </div>
                         <div class="col">
                             <a class="btn-yellow">¿Cómo llegar?</a>
@@ -88,7 +88,7 @@
             
             <div class="flex-btn">
                 <div class="col">
-                    <a class="btn-sandia">¡Contáctanos!</a>
+                    <a class="btn-sandia">Contáctanos</a>
                 </div>
                 <div class="col">
                     <a class="btn-yellow">¿Cómo llegar?</a>
@@ -120,7 +120,7 @@
                     
                         <div class="flex-btn">
                             <div class="col">
-                                <a class="btn-dead-yellow">¡Contáctanos!</a>
+                                <a class="btn-dead-yellow">Contáctanos</a>
                             </div>
                             <div class="col">
                                 <a class="btn-yellow">¿Cómo llegar?</a>
@@ -151,7 +151,7 @@
             
             <div class="flex-btn">
                 <div class="col">
-                    <a class="btn-dead-yellow">¡Contáctanos!</a>
+                    <a class="btn-dead-yellow">Contáctanos</a>
                 </div>
                 <div class="col">
                     <a class="btn-yellow">¿Cómo llegar?</a>
@@ -226,7 +226,7 @@
         
         <div class="flex-btn">
             <div class="col">
-                <a class="btn-dead-yellow">¡Contáctanos!</a>
+                <a class="btn-dead-yellow">Contáctanos</a>
             </div>
             <div class="col">
                 <a class="btn-yellow">¿Cómo llegar?</a>
@@ -256,7 +256,7 @@
                 
                 <div class="flex-btn">
                     <div class="col">
-                        <a class="btn-dead-yellow">¡Contáctanos!</a>
+                        <a class="btn-dead-yellow">Contáctanos</a>
                     </div>
                     
                     <div class="col">
@@ -301,13 +301,13 @@
         
         <div class="flex-btn">
             <div class="col">
-                <a class="btn-dead-yellow">¡Contáctanos!</a>
+                <a class="btn-dead-yellow">Contáctanos</a>
             </div>    
             <div class="col mob-hid">
-                <a class="btn-dead-yellow">¡Contáctanos!</a>
+                <a class="btn-dead-yellow">Contáctanos</a>
             </div>
             <div class="col mob-hid">
-                <a class="btn-dead-yellow">¡Contáctanos!</a>
+                <a class="btn-dead-yellow">Contáctanos</a>
             </div>
         </div>
         

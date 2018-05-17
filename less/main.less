@@ -269,7 +269,7 @@ p{
     background-color: @yellow;
     font-family: 'Allgemeine';
     color: @sandia;
-    font-size: 30px;
+    font-size: 24px;
     border: 0;
     padding: 4px 24px;
     
@@ -279,7 +279,7 @@ p{
     background-color: @sandia;
     font-family: 'Allgemeine';
     color: @gris;
-    font-size: 30px;
+    font-size: 24px;
     border: 0;
     padding: 4px 24px;
     
@@ -289,7 +289,7 @@ p{
     background-color: @yellow-dead;
     font-family: 'Allgemeine';
     color: @sandia;
-    font-size: 30px;
+    font-size: 24px;
     border: 0;
     padding: 4px 24px;
     
@@ -326,6 +326,7 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
    ========================================================================== */
 
 #reparamos-inicio{
+    
     
     //background: url(../img/home/fondo-sec1.jpg) no-repeat center;
     background-size: auto;
@@ -392,7 +393,7 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
 
 #who{
     background: url(../img/home/modern-devices.png) center 110px no-repeat, url(../img/home/fondo-sandia-piramide.jpg) no-repeat center;
-    
+    max-height: 1100px;
     h2{
         padding-top: 465px;
         padding-bottom: 80px;
@@ -419,10 +420,12 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
     .flex {
         
         #col-servicio {
-        width: 48%;            
+        width: 40%;
+        padding: 0px;
         }
         #col-logos {
-        width: 52%;            
+        padding: 0px;    
+        width: 42%;            
         }
     }
     img#bro{
@@ -448,43 +451,6 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
     }
 }
 
-#contacto{
-    background: url(../img/home/fondo-contacto.jpg) center no-repeat;
-    background-size: cover;
-    
-    .flex{
-        
-        padding-top: 60px;
-        padding-bottom: 60px;
-        #icons{
-            
-            width: 8%;
-            img{padding-bottom: 10px;}
-            
-        }
-        .col{
-            width: 45%;         
-        }
-        .contacto{
-                p, h2{
-                    color: white;
-                    font-size: 18px;
-                    text-align: left;
-                }
-        }
-        h2{
-            padding: 25px 0px 0px 65px;
-            line-height: 180%;
-            .giant-white{
-                font-size: 96px;
-            }
-        }
-        .btn-pad{
-            padding-bottom: 20px;
-        }
-
-    }
-}
 
 /* ==========================================================================
    PORQUÉ ELEGIRNOS
@@ -656,7 +622,7 @@ p.garantia{
     background-size: cover;
     text-align: center;
     margin: 0;
-    padding: 0px 20px;
+    padding: 0px 5px;
     h2{
         line-height: 150%;
         padding-top: 140px;
@@ -983,11 +949,11 @@ p.garantia{
         line-height: 120%;
     }
     .padding-top{
-        padding-top: 200px;
+        padding-top: 185px;
     }
     
     div.high-padding{
-        padding: 0px 120px 0px 50px;
+        padding: 20px 100px 0px 50px;
     }
     .flex-btn{
         padding-bottom: 0px;
@@ -1057,6 +1023,51 @@ p.garantia{
 
 /////////////////////////// FOOTER /////////////////////////////////
 
+#contacto{
+    background: url(../img/home/fondo-contacto.jpg) center no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+    
+    img{
+        padding-right: 40px;
+    }
+    
+    .left{
+        float: none;
+        padding-left: 50px;
+    }
+    
+    .flex{
+        
+        padding-top: 10px;
+        padding-bottom: 5px;
+        #icons{
+            
+            width: 8%;
+            img{padding-bottom: 10px;}
+            
+        }
+        .col{
+            width: 45%;         
+        }
+        .contacto{
+                max-width: 90px;
+        }
+        h2{
+            padding: 25px 0px 0px 65px;
+            line-height: 180%;
+            .giant-white{
+                font-size: 96px;
+            }
+        }
+        .btn-pad{
+            padding-bottom: 20px;
+        }
+
+    }
+}
+
+
 #footer{
     background: url(../img/home/fondo-contacto.jpg) no-repeat center;
     p, h2{
@@ -1066,6 +1077,8 @@ p.garantia{
     p{
         margin-top: -12px;
     }
+    
+
     .flex{
         padding: 20px 50px 20px 220px;
         .col{
@@ -1089,6 +1102,19 @@ p.garantia{
                 padding-left: 70px;
             }
             
+        }
+        .contacto{
+            align-items: center;
+            padding-right: 30px;
+            margin-right: 300px;
+            width: 15%;
+            min-width: 20px;
+
+                
+        }
+        
+        .columna-contacto{
+                width: 80%;
         }
     }
     

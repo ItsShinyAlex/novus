@@ -31,33 +31,67 @@ if ( !is_front_page() ) {
 <footer>	
 	
 <section id="contacto">
+    <div class="left">
+        <h2 class="bigest-white">CONTACTO <br>
+        <span class="giant-white">NOVUS</span></h2>
+    </div>
     <div class="flex">
         <div class="col">
-            <h2 class="bigest-white">CONTACTO <br>
-            <span class="giant-white">NOVUS</span></h2>
         </div>
-        <div id="icons" class="col">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/002-phone-call.svg" alt="teléfono"> 
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/001-pin.svg" alt="ubicación">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/003-clock.svg" alt="horario reloj">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/mail.png" alt="Correo electrónico">
+        
+
+        <div class="col">                     
+                <div>
+                    <div class="flex">
+                        <div class="contacto center">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/002-phone-call.png" alt="teléfono">
+                        </div>
+
+                        <div class="columna-contacto">
+                            <p class="white"><b>TELÉFONO</b><br>
+                                                55 5589 8928</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex ">
+                        <div class="contacto center">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/001-pin.png" alt="ubicación">
+                        </div>
+
+                        <div class="columna-contacto">
+                            <p class="white"><b>Calzada de Tlalpan<br>
+                            local 109 CDMX</b></p>
+                        </div>
+                    </div>
+                       
+                    <div class="flex">   
+                        <div class="contacto center">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/003-clock.png" alt="horario reloj">
+                        </div>
+                    
+                        <div class="columna-contacto">
+                            <p class="white"><b>HORARIO DE ATENCIÓN</b><br>Lunes a Viernes de<br>
+                                                9:00 am a 6 pm<br> 
+                                                Sábado de<br> 
+                                                9:00 am a 1:00 pm</p>
+                        </div>
+                     </div>
+                    
+                    <div class="flex">
+                        <div class="contacto center">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/mail.png" alt="Correo electrónico">
+                        </div>
+
+                        <div class="columna-contacto">
+                             <p class="btn-pad white"><b>CORREO</b><br>
+                                garantias@novussupply.com</p>    
+                                <a class="btn-yellow">¿Cómo llegar?</a>
+                        </div>
+                     </div>
+                </div>    
         </div>
-        <div class="col contacto">        
-            <p><b>TELÉFONO</b><br>
-            55 5589 8928</p>
-            
-            <p><b>Calzada de Tlalpan<br>
-            local 109 CDMX</b></p>
-  
-            <p ><b>HORARIO DE ATENCIÓN</b><br>Lunes a Viernes de<br>
-                9:00 am a 6 pm<br> 
-                Sábado de<br> 
-                9:00 am a 1:00 pm</p>
-                
-            <p class="btn-pad"><b>CORREO</b><br>
-            garantias@novussupply.com</p>    
-            <a class="btn-yellow">¿Cómo llegar?</a>
-        </div>
+        
+        
     </div>
 </section>
 

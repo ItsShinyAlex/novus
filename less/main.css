@@ -195,7 +195,7 @@ p.blue {
   background-color: #fae008;
   font-family: 'Allgemeine';
   color: #c33043;
-  font-size: 30px;
+  font-size: 24px;
   border: 0;
   padding: 4px 24px;
 }
@@ -203,7 +203,7 @@ p.blue {
   background-color: #c33043;
   font-family: 'Allgemeine';
   color: #f3f3f2;
-  font-size: 30px;
+  font-size: 24px;
   border: 0;
   padding: 4px 24px;
 }
@@ -211,7 +211,7 @@ p.blue {
   background-color: #e3b45b;
   font-family: 'Allgemeine';
   color: #c33043;
-  font-size: 30px;
+  font-size: 24px;
   border: 0;
   padding: 4px 24px;
 }
@@ -275,6 +275,7 @@ section.fondo-gris {
 }
 #who {
   background: url(../img/home/modern-devices.png) center 110px no-repeat, url(../img/home/fondo-sandia-piramide.jpg) no-repeat center;
+  max-height: 1100px;
 }
 #who h2 {
   padding-top: 465px;
@@ -294,10 +295,12 @@ section.fondo-gris {
   padding-bottom: 185px;
 }
 #brindamos .flex #col-servicio {
-  width: 48%;
+  width: 40%;
+  padding: 0px;
 }
 #brindamos .flex #col-logos {
-  width: 52%;
+  padding: 0px;
+  width: 42%;
 }
 #brindamos img#bro {
   position: relative;
@@ -316,39 +319,6 @@ section.fondo-gris {
   line-height: 180%;
 }
 #beneficios .flex .btn-pad {
-  padding-bottom: 20px;
-}
-#contacto {
-  background: url(../img/home/fondo-contacto.jpg) center no-repeat;
-  background-size: cover;
-}
-#contacto .flex {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-#contacto .flex #icons {
-  width: 8%;
-}
-#contacto .flex #icons img {
-  padding-bottom: 10px;
-}
-#contacto .flex .col {
-  width: 45%;
-}
-#contacto .flex .contacto p,
-#contacto .flex .contacto h2 {
-  color: white;
-  font-size: 18px;
-  text-align: left;
-}
-#contacto .flex h2 {
-  padding: 25px 0px 0px 65px;
-  line-height: 180%;
-}
-#contacto .flex h2 .giant-white {
-  font-size: 96px;
-}
-#contacto .flex .btn-pad {
   padding-bottom: 20px;
 }
 /* ==========================================================================
@@ -485,7 +455,7 @@ p.garantia {
   background-size: cover;
   text-align: center;
   margin: 0;
-  padding: 0px 20px;
+  padding: 0px 5px;
 }
 .herramientas h2 {
   line-height: 150%;
@@ -740,10 +710,10 @@ p.garantia {
   line-height: 120%;
 }
 #planes .padding-top {
-  padding-top: 200px;
+  padding-top: 185px;
 }
 #planes div.high-padding {
-  padding: 0px 120px 0px 50px;
+  padding: 20px 100px 0px 50px;
 }
 #planes .flex-btn {
   padding-bottom: 0px;
@@ -805,6 +775,44 @@ p.garantia {
   padding: 0;
   margin: 0px 45px;
 }
+#contacto {
+  background: url(../img/home/fondo-contacto.jpg) center no-repeat;
+  background-size: cover;
+  padding: 50px 0px;
+}
+#contacto img {
+  padding-right: 40px;
+}
+#contacto .left {
+  float: none;
+  padding-left: 50px;
+}
+#contacto .flex {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+#contacto .flex #icons {
+  width: 8%;
+}
+#contacto .flex #icons img {
+  padding-bottom: 10px;
+}
+#contacto .flex .col {
+  width: 45%;
+}
+#contacto .flex .contacto {
+  max-width: 90px;
+}
+#contacto .flex h2 {
+  padding: 25px 0px 0px 65px;
+  line-height: 180%;
+}
+#contacto .flex h2 .giant-white {
+  font-size: 96px;
+}
+#contacto .flex .btn-pad {
+  padding-bottom: 20px;
+}
 #footer {
   background: url(../img/home/fondo-contacto.jpg) no-repeat center;
 }
@@ -837,6 +845,16 @@ p.garantia {
 }
 #footer .flex .col#fsmaller {
   padding-left: 70px;
+}
+#footer .flex .contacto {
+  align-items: center;
+  padding-right: 30px;
+  margin-right: 300px;
+  width: 15%;
+  min-width: 20px;
+}
+#footer .flex .columna-contacto {
+  width: 80%;
 }
 #header {
   background-color: #c33043;
