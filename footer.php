@@ -24,7 +24,7 @@ $footer_grid_status = ($boxed_footer == 'true') ? ' mk-grid' : ' fullwidth-foote
 $disable_mobile = ($mk_options['footer_disable_mobile'] == 'true' ) ? $mk_footer_class .= ' disable-on-mobile' : ' ';
 
 
-if ( !is_front_page() ) {	
+	
 ?>
 
 
@@ -36,7 +36,8 @@ if ( !is_front_page() ) {
         <span class="giant-white">NOVUS</span></h2>
     </div>
     <div class="flex">
-        <div class="col">
+        <div id="contact-form" class="col">
+        	<?php echo do_shortcode('[caldera_form id="CF5afe3cbd67b13"]'); ?>
         </div>
         
 
@@ -44,7 +45,7 @@ if ( !is_front_page() ) {
                 <div>
                     <div class="flex">
                         <div class="contacto center">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/002-phone-call.png" alt="teléfono">
+                            <img id="phone" src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/002-phone-call.png" alt="teléfono">
                         </div>
 
                         <div class="columna-contacto">
@@ -59,21 +60,21 @@ if ( !is_front_page() ) {
                         </div>
 
                         <div class="columna-contacto">
-                            <p class="white"><b>Calzada de Tlalpan<br>
+                            <p class="white"><b>Calzada de Tlalpan 4456<br>
                             local 109 CDMX</b></p>
                         </div>
                     </div>
                        
                     <div class="flex">   
                         <div class="contacto center">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/003-clock.png" alt="horario reloj">
+                            <img id="clock"  src="<?php echo get_stylesheet_directory_uri(); ?>/img/home/003-clock.png" alt="horario reloj">
                         </div>
                     
                         <div class="columna-contacto">
                             <p class="white"><b>HORARIO DE ATENCIÓN</b><br>Lunes a Viernes de<br>
-                                                9:00 am a 6 pm<br> 
+                                                9 a 19 HRS.<br> 
                                                 Sábado de<br> 
-                                                9:00 am a 1:00 pm</p>
+                                                9 a 14 HRS.</p>
                         </div>
                      </div>
                     
@@ -85,7 +86,7 @@ if ( !is_front_page() ) {
                         <div class="columna-contacto">
                              <p class="btn-pad white"><b>CORREO</b><br>
                                 garantias@novussupply.com</p>    
-                                <a class="btn-yellow">¿Cómo llegar?</a>
+                                <a href="https://www.google.com.mx/maps/dir/''/Calzada+de+Tlalpan+local+109+CDMX+novus/data=!4m5!4m4!1m0!1m2!1m1!1s0x85ce00571633a6d5:0x8557efa4fc38697e?sa=X&ved=2ahUKEwijqdeDu5DbAhUCyGMKHdHnBUgQ9RcwAHoECAEQCQ" class="btn-yellow">¿Cómo llegar?</a>
                         </div>
                      </div>
                 </div>    
@@ -95,12 +96,13 @@ if ( !is_front_page() ) {
     </div>
 </section>
 
+
 </footer>
     
     
 </div>
 <?php
-}
+
 	global $is_header_shortcode_added;
 
 	/**

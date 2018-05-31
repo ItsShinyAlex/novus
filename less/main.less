@@ -170,6 +170,20 @@ p{
     font-size: @l-big;
 }
 
+.light-black{
+    color: black;
+    font-family: 'Architekt';
+    font-size: 16px;
+}
+
+.light-gray{
+    color: gray;
+    font-family: 'Architekt';
+    font-size: 21px;
+    text-decoration: underline;
+    
+}
+
 .light-mid-black{
     color: black;
     font-family: 'Architekt';
@@ -200,8 +214,17 @@ p{
     font-size: @l-giant;
 }
 
+.mid-sandia{
+    color: @sandia;
+    font-family: 'Allgemeine';
+    font-size: 22px;
+}
 
-
+.mid-black{
+    color: black;
+    font-family: 'Allgemeine';
+    font-size: 18px;
+}
 
 .big-white{
     color: @gris;
@@ -410,32 +433,49 @@ section.fondo-gris{ //esta clase apareció apartir de "about"
     }
 }
 
+#mac{
+    height: 636px;
+    background-color: @gris-oscuro;
+    background: url(../img/home/mac-new.jpg) right 12px no-repeat, url(../img/home/cuadro-gris.jpg) repeat;
+    background-size: 56%;
+    
+    
+    #for1200{
+        display: none;
+    }
+    
+    .col{
+        padding: 20px 20px 0px 0px;
+    }
+    
+    .contenedor{
+       
+       margin: 42px 0px 0px 50px;
+       background: url(../img/home/cuadro-gris.jpg) center no-repeat;
+       width: 666px;
+        //width: 52%; //for Responsive 1200px
+    }
+
+}
+
+
+
+
 #nuestros-servicios{
+
+    h2{
+        line-height: 160%;
+    }
         }
     
 #brindamos
 {
-    padding-top: 160px;
-    padding-bottom: 185px;
-    .flex {
-        
-        #col-servicio {
-        width: 40%;
-        padding: 0px;
-        }
-        #col-logos {
-        padding: 0px;    
-        width: 42%;            
-        }
-    }
-    img#bro{
-        position:relative;
-        left: 0;
-        top:-85px;  
-    }
+    padding-top: 100px;
+    background-color: white;
 }
 
 #beneficios{
+    
     background-color: @gris-oscuro;
     .flex{
         padding-top: 200px;
@@ -1024,6 +1064,32 @@ p.garantia{
 /////////////////////////// FOOTER /////////////////////////////////
 
 #contacto{
+    
+    .caldera-grid .form-control::-webkit-input-placeholder {
+    color: white;
+    }
+    
+    #fld_5791501_1{ 
+    background-color: @yellow;
+    font-family: 'Allgemeine';
+    color: @sandia;
+    font-size: 24px;
+    border: 0;
+    padding: 4px 20px;
+
+        
+    }
+    
+    .form-control{
+        background-color: transparent;
+        border: 3px solid white;
+        color: aqua;
+        font-family: 'Allgemeine';
+        font-weight: 300;
+    }
+    
+
+    
     background: url(../img/home/fondo-contacto.jpg) center no-repeat;
     background-size: cover;
     padding: 50px 0px;
@@ -1039,16 +1105,21 @@ p.garantia{
     
     .flex{
         
-        padding-top: 10px;
-        padding-bottom: 5px;
-        #icons{
-            
-            width: 8%;
-            img{padding-bottom: 10px;}
-            
-        }
+        padding-top: 0px;
+        padding-bottom: 0px;
+
         .col{
-            width: 45%;         
+            width: 50%;
+            #clock{
+                padding-top: 30%;
+            }
+            #phone{
+                width: 45%;
+                padding-bottom: 25%;
+            }
+            img{
+                width: 50%;
+            }
         }
         .contacto{
                 max-width: 90px;
@@ -1120,8 +1191,16 @@ p.garantia{
     
 }
 
+    .header-style-2 .header-logo a img {
+    width: 200px;
+    
+    }
+
 #header{
     background-color: @sandia;
+    
+
+    
     div{
         background-color: @sandia;
     }
@@ -1156,6 +1235,132 @@ p.garantia{
     }
     
     
+}
+@title-blue: #0ba9bc;
+@gray-f: #959595;
+
+@yellow: #e2ac02;
+@cherry: #ee3b4f;
+@green: #21b573;
+@orange: #f7921e;
+@sky: #45adad;
+@blue: #3d7a96;
+@pink: #ec1e79;
+@navy: #0053a6;
+@purple: #8a2587;
+
+
+#tabla-biosantec{
+    padding-bottom: 40px;
+    
+    img{
+        margin-top: 30px;
+    }
+    
+    .cherry{
+        color: @cherry;
+    }
+    .yellow{
+        color: @yellow
+    }
+    .green{
+        color: @green;
+    }
+    .orange{
+        color: @orange;
+    }
+    .sky{
+        color: @sky;
+    }
+    .blue{
+        color: @blue;
+    }
+    .pink{
+        color: @pink;
+    }
+    .navy{
+        color: @navy;
+    }
+    .purple{
+        color: @purple;
+    }
+
+    
+    #big-list-col{
+        width: 75%;
+        padding-left: 100px;
+    }
+    #small-list-col{
+        width: 20%;
+        background-color: #f3f4f5;
+        .flex{
+            flex-wrap: nowrap;
+            padding-bottom: 15px;
+        }
+        .i-col{
+            margin-left: 20px;
+            margin-right: 10px;
+            width: 20%;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .txt-col{
+            width: 80%;
+            justify-content: center;
+            flex-direction: column;
+            padding-right: 20px;
+            p{
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+    
+    
+    
+    .center{
+        align-items: center;
+        text-align: center;
+    }
+    
+    h1{
+        color: @title-blue;
+        padding-left: 20px;
+        font-weight: 600;
+        padding-bottom: 100px;
+        padding-top: 50px;
+        font-size: 42px;
+    }
+    #principal{
+        
+        color: @title-blue;
+        padding-left: 20px;
+        font-size: 30px;
+        padding-bottom: 100px;
+        padding-top: 55px;
+        font-size: 40px;
+    }
+    
+    h2{
+        font-size: 18px;
+        padding: 5px 17px 0px 17px;
+        margin-bottom: 2px;
+        font-weight: 600;
+        line-height: 100%;
+    }
+    
+    .col{
+        width: 146px;
+        //width: 20%;
+        padding: 0px;
+        
+        
+        p{
+            padding: 2px 27px;
+            line-height: 100%;
+            color: @gray-f;
+        }
+    }
 }
 
 @import "responsive";

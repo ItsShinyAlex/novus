@@ -296,9 +296,6 @@
             </div>
         </div>
         
-        
-        
-        
         <div class="flex-btn">
             <div class="col">
                 <a class="btn-dead-yellow">Contáctanos</a>
